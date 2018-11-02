@@ -1,4 +1,4 @@
-## **Contribute101 [www.contribute101.herokuapp.com](https://contribute101.herokuapp.com/) **
+## **Contribute101** [www.contribute101.herokuapp.com](https://contribute101.herokuapp.com/)
 
 ---
 
@@ -25,13 +25,17 @@ But for now lets get straight into work.
 
 2. Clone your forked repo on anywhere on your laptop/computer .And how we do that :
 
-- Click on here.
+- Click on here
+
   ![alt text](screenshots/clone.jpg)
+
 - Copy this url
+
   ![alt text](screenshots/clone-copy.jpg)
 
 - Now run this command
   `git clone URL`
+
   ![alt text](screenshots/git-clone.jpg)
 
 ---
