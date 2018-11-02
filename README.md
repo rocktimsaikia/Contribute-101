@@ -29,9 +29,9 @@ But for now lets get straight into work.
 
 ![alt text](screenshots/clone.jpg)
 
-- Copy this url
+- Copy the url of your forked repo
 
-  ![alt text](screenshots/clone-copy.jpg)
+![alt text](screenshots/clone-copy.jpg)
 
 - Now run this command
   `git clone URL`
