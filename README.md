@@ -25,9 +25,9 @@ But for now lets get straight into work.
 
 2. Clone your forked repo on anywhere on your laptop/computer .And how we do that :
 
-- Click on here
+- On your forked repo, Click here
 
-  ![alt text](screenshots/clone.jpg)
+![alt text](screenshots/clone.jpg)
 
 - Copy this url
 
@@ -80,6 +80,7 @@ But for now lets get straight into work.
 ---
 
 5. Now you should see this button .Just click on this button.After that dont chnage anything and just create a pull request. **And We are done. Pheeewwwww!!!**
+   ![alt text](screenshots/pull.jpg)
 
 ---
 
