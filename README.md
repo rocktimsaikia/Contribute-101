@@ -42,6 +42,9 @@ But for now lets get straight into work.
   `<!--Copy these code below and Paste it right Above this comment "-->`
 
 - Now copy that card template code paste in right above the comment line.
+
+![alt text](screenshots/card-template.jpg)
+
 - Cool and now just do these specific things
   - Write Your name on the first `'h5'` tag.
   - Write the name of your place where you live on the `'h6'` tag.
