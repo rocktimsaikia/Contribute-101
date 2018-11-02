@@ -24,9 +24,15 @@ But for now lets get straight into work.
 ---
 
 2. Clone your forked repo on anywhere on your laptop/computer .And how we do that :
-   `git clone URL`
 
-   ![alt text](screenshots/clone.jpg)
+- Click on here.
+  ![alt text](screenshots/clone.jpg)
+- Copy this url
+  ![alt text](screenshots/clone-copy.jpg)
+
+- Now run this command
+  `git clone URL`
+  ![alt text](screenshots/git-clone.jpg)
 
 ---
 
@@ -34,14 +40,19 @@ But for now lets get straight into work.
 
 - Currently the file structure would look like this.
 
-![alt text](screenshots/url)
+![alt text](screenshots/file_structures.jpg)
+
+- Now open the terminal and run
+  `npm install`
+  ![alt text](screenshots/npm-install.jpg)
+  [This will install all our needed dependencies]
 
 - Now click on the _views_ folder and open up the _index.ejs_ file.
 - Then look for the card template with the comment on above saying
 
   `<!--Copy these code below and Paste it right Above this comment "-->`
 
-- Now copy that card template code paste in right above the comment line.
+- Now COPY this card template code and PASTE in right above the comment line.
 
 ![alt text](screenshots/card-template.jpg)
 
@@ -56,6 +67,7 @@ But for now lets get straight into work.
 
 4.  Lets create a new remote branch and push our modified remote repo to our github repo. follow me :
     - `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]
+      ![alt text](screenshots/git-checkout.jpg)
     - `git add .`[don't forget the dot `'.'` in the end]
     - `git commit -m "Add YOURNAME's card"`[ex: git commit -m "Rocktim's card"]
     - `git push -u origin <Branchname>` [ex : `git push -u origin myCard`]
