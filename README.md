@@ -1,4 +1,4 @@
-## **Contribute101 [W.I.P]**
+## **Contribute101 [www.contribute101.herokuapp.com](https://contribute101.herokuapp.com/) **
 
 ---
 
@@ -37,8 +37,10 @@ But for now lets get straight into work.
 ![alt text](screenshots/url)
 
 - Now click on the _views_ folder and open up the _index.ejs_ file.
-- Then look for the card template with the comment on above saying :
+- Then look for the card template with the comment on above saying
+
   `<!--Copy these code below and Paste it right Above this comment "-->`
+
 - Now copy that card template code paste in right above the comment line.
 - Cool and now just do these specific things
   - Write Your name on the first `'h5'` tag.
@@ -50,10 +52,10 @@ But for now lets get straight into work.
 ---
 
 4.  Lets create a new remote branch and push our modified remote repo to our github repo. follow me :
-    `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]
-    `git add .`[don't forget the dot `'.'` in the end]
-    `git commit -m "Add YOURNAME's card"`[ex: git commit -m "Rocktim's card"]
-    `git push -u origin <Branchname>` [ex : `git push -u origin myCard`]
+    - `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]
+    - `git add .`[don't forget the dot `'.'` in the end]
+    - `git commit -m "Add YOURNAME's card"`[ex: git commit -m "Rocktim's card"]
+    - `git push -u origin <Branchname>` [ex : `git push -u origin myCard`]
     - **DONE HERE ,Lets go to our github repo of this project**
 
 ---
