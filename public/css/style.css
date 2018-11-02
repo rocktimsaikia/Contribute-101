@@ -1,0 +1,39 @@
+body {
+  background: #dae9f8;
+  font-family: "Open Sans", sans-serif;
+}
+#hero-page {
+  font-family: "Krub", sans-serif;
+  text-align: center;
+  background: rgb(92, 67, 67);
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 2rem;
+}
+.col-wrapper {
+  margin: 15px;
+}
+.card {
+  margin-bottom: 10px;
+  height: 250px !important;
+  text-align: center;
+  -webkit-box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
+}
+.card-link {
+  color: #000;
+}
+.card-link > i {
+  font-size: 25px !important;
+}
+.detail {
+  text-align: left;
+}
+.detail > p {
+  margin-top: 5px;
+  margin-bottom: 3px;
+}
+h6 > i {
+  letter-spacing: 5px;
+}

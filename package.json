@@ -1,0 +1,16 @@
+{
+  "name": "Contribute-101",
+  "version": "1.0.0",
+  "description": "A simple project for the first time open source contributors",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rocktim Saikia",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  }
+}
