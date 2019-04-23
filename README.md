@@ -1,4 +1,6 @@
-## **Contribute101** [www.contribute101.herokuapp.com](https://contribute101.herokuapp.com/)
+# Contribute101
+
+> Contribute to open source today.
 
 ![alt text](screenshots/website.jpg)
 
