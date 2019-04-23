@@ -1,4 +1,4 @@
-# Contribute101
+# ✨Contribute101
 
 > Contribute to open source today.
 
