@@ -2,7 +2,7 @@
 
 > Contribute to open source today.
 
-![alt text](screenshots/website.jpg)
+![alt text](screenshots/website.png)
 
 ---
 
