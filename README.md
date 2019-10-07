@@ -50,11 +50,6 @@ But for now lets get straight into work.
 
 ![alt text](screenshots/file_structures.jpg)
 
-- Now open the terminal and run
-  `npm install`
-  ![alt text](screenshots/npm-install.jpg)
-  [This will install all our needed dependencies]
-
 - Now click on the _views_ folder and open up the _index.ejs_ file.
 - Then look for the card template with the comment on above saying
 
