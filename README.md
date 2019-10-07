@@ -1,6 +1,6 @@
 # ✨Contribute101
 
-> Contribute to open source today.
+> ✨ Contribute and get a step forward in completing the Hacktoberfest 2019.
 
 ![alt text](screenshots/website.png)
 
