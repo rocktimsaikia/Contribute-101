@@ -135,6 +135,13 @@ module.exports.list = [
     tech_stack: ["Django", "Arduino", "Angular.js"],
     github_username: "adityakumar2809",
     twitter_username: "adityakumar2809"
+  },
+  {
+    name: "Mikalai Sokarau",
+    country: "Belarus",
+    tech_stack: ["JS", "HTML", "CSS"],
+    github_username: "mikalai-sokarau",
+    twitter_username: "nope"
   }
 
   /* Template : 
