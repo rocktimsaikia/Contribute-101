@@ -47,3 +47,15 @@ body {
 .tech-stack > ul > li {
   list-style: none;
 }
+
+@media only screen and (max-width: 1040px) {
+  .cards {
+    grid-template-columns: 2fr 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
