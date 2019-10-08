@@ -50,31 +50,18 @@ But for now lets get straight into work.
 
 ![alt text](screenshots/file_structures.jpg)
 
-- Now click on the _views_ folder and open up the _index.ejs_ file.
-- Then look for the card template with the comment on above saying
+- Now go to _contributors_/ _index.js_ file.
+- Then add your details with given object model.
 
-  `<!--Copy these code below and Paste it right Above this comment "-->`
+![alt text](screenshots/template.jpg)
 
-- Now COPY this card template code and PASTE in right above the comment line.
-
-![alt text](screenshots/card-template.jpg)
-
-- Cool and now just do these specific things
-  - Write Your name on the first `'h5'` tag.
-  - Write the name of your place where you live on the `'h6'` tag.
-  - Then replace the `'li'` tags with 3 technologies that you are currently learning.
-  - Then on the two last `'a'` tags add your **github** and **twitter** profile links on the `'href'` attributes respectively.
-  - **DONE with the card thing.**
-
----
-
-4.  Lets create a new remote branch and push our modified remote repo to our github repo. follow me :
-    - `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]
-      ![alt text](screenshots/git-checkout.jpg)
-    - `git add .`[don't forget the dot `'.'` in the end]
-    - `git commit -m "Add YOURNAME's card"`[ex: git commit -m "Rocktim's card"]
-    - `git push -u origin <Branchname>` [ex : `git push -u origin myCard`]
-    - **DONE HERE ,Lets go to our github repo of this project**
+4. Now create a new remote branch and push our modified remote repo to our github repo :
+   - `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]
+     ![alt text](screenshots/git-checkout.jpg)
+   - `git add .`[don't forget the dot `'.'` in the end]
+   - `git commit -m "Add YOURNAME's card"`[ex: git commit -m "Rocktim's card"]
+   - `git push -u origin <Branchname>` [ex : `git push -u origin myCard`]
+   - **DONE HERE ,Lets go to our github repo of this project**
 
 ---
 
