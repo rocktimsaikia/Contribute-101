@@ -7,6 +7,13 @@ module.exports.list = [
     twitter_username: "RocktimSaikia10"
   },
   {
+    name: "Alejandro García",
+    country: "España",
+    tech_stack: ["Swift", "Laravel", "JavaScript"],
+    github_username: "OwboxAl3x",
+    twitter_username: "#"
+  },
+  {
     name: "Wisnu Febriadi",
     country: "Indonesia",
     tech_stack: ["Flutter", "Kotlin", "Swift"],
