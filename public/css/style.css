@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Krub|Open+Sans|Raleway");
+
 body {
-  background: #dae9f8;
+  background: #fff;
   font-family: "Open Sans", sans-serif;
 }
 #hero-page {
@@ -10,30 +12,38 @@ body {
   border: 2px solid #fff;
   padding: 2rem;
 }
-.col-wrapper {
-  margin: 15px;
+.cards {
+  position: relative;
+  display: grid;
+  list-style: none;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Raleway";
 }
-.card {
-  margin-bottom: 10px;
-  height: 250px !important;
+.cards > .info_card > h5 {
+  color: #333;
+  font-weight: 600;
+}
+.cards > .info_card > p {
+  color: rgb(141, 141, 141);
+  font-weight: 600;
+}
+.cards > .info_card {
+  font-weight: 600;
   text-align: center;
-  -webkit-box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 12px 29px -4px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  background: #fff;
+  color: #333;
+  box-shadow: 0 16px 48px #e3e7eb;
+  border-top: 4px solid #5aff62;
 }
-.card-link {
-  color: #000;
+.info_card > a {
+  font-size: 30px;
+  margin: 10px;
 }
-.card-link > i {
-  font-size: 25px !important;
-}
-.detail {
+.tech-stack > ul {
   text-align: left;
 }
-.detail > p {
-  margin-top: 5px;
-  margin-bottom: 3px;
-}
-h6 > i {
-  letter-spacing: 5px;
+.tech-stack > ul > li {
+  list-style: none;
 }
