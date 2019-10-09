@@ -197,7 +197,7 @@ module.exports.list = [
   {
     name: "Saeed",
     country: "Iran",
-    role: "To be filled",
+    role: "Mobile Developer",
     tech_stack: ["Android", "iOS", "Node"],
     github_username: "saeed-rz",
     twitter_username: "@SaeedRezaeii"
