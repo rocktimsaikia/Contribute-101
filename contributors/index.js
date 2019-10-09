@@ -170,5 +170,12 @@ module.exports.list = [
     tech_stack: ["Angular", "Node", "Express"],
     github_username: "grvv",
     twitter_username: "#"
+  },
+  {
+    name: "Kevin Nathaniel",
+    country: "Indonesia",
+    tech_stack: ["ReactJS", "Java", "PostgreSQL"],
+    github_username: "kevin2000141",
+    twitter_username: "-"
   }
 ];
