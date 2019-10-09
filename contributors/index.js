@@ -170,5 +170,12 @@ module.exports.list = [
     tech_stack: ["Angular", "Node", "Express"],
     github_username: "grvv",
     twitter_username: "#"
+  },
+  {
+    name: "Rajprakash",
+    country: "India",
+    tech_stack: ["ReactJS", "Competitive Programming", "BurpSuite"],
+    github_username: "rajprakash00",
+    twitter_username: "RajprakashSahoo"
   }
 ];
