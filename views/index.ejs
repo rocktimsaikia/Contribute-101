@@ -70,16 +70,13 @@
     <div class="container-fluid mt-5">
       <ul class="cards">
         <% List.forEach((obj)=>{%>
-
         <div class="info_card">
           <li>
-            <img src="<%=obj%>" alt="" />
             <h4><%=obj.name%></h4>
             <% if (obj.role){ %>
-              <p><%=obj.role%></p>
+            <p><%=obj.role%></p>
             <% } %>
             <p><%=obj.country%></p>
-
             <div class="tech-stack">
               <p>My Tech Stack:</p>
               <ol>
@@ -89,18 +86,25 @@
               </ol>
             </div>
           </li>
-  
+
           <div class="row">
-            <a href="https://github.com/<%=obj.github_username%>" class="social-media col" target="_blank">
-                <i class="fab fa-github-square"></i>
+            <a
+              href="https://github.com/<%=obj.github_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-github-square"></i>
             </a>
 
-            <a href="https://twitter.com/<%=obj.twitter_username%>" class="social-media col" target="_blank">
-                <i class="fab fa-twitter-square"></i>
+            <a
+              href="https://twitter.com/<%=obj.twitter_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-twitter-square"></i>
             </a>
+          </div>
         </div>
-  
-      </div>
         <%}) %>
       </ul>
     </div>
