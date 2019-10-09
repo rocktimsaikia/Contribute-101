@@ -137,6 +137,13 @@ module.exports.list = [
     twitter_username: "jsparmani"
   },
   {
+    name: "Pranshu Kharkwal",
+    country: "India",
+    tech_stack: ["NodeJS", "React Native", "Blockchain"],
+    github_username: "pranshukharkwal",
+    twitter_username: "hellopranshu"
+  },
+  {
     name: "Aditya Kumar Singh",
     country: "India",
     tech_stack: ["Django", "Arduino", "Angular.js"],
