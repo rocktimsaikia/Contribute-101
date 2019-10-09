@@ -163,6 +163,13 @@ module.exports.list = [
     tech_stack: ["Js", "React", "Typescript"],
     github_username: "luistak",
     twitter_username: "_luistak"
+  },
+  {
+    name: "Akash Kumar",
+    country: "India",
+    tech_stack: ["Python", "C++", "Machine Learning"],
+    github_username: "aaakashkumar",
+    twitter_username: "piratedvirus09"
   }
 
   /* Template : 
