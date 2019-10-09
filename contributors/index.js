@@ -137,6 +137,12 @@ module.exports.list = [
     twitter_username: "adityakumar2809"
   },
   {
+    name: "Mikalai Sokarau",
+    country: "Belarus",
+    tech_stack: ["JS", "HTML", "CSS"],
+    github_username: "mikalai-sokarau",
+    twitter_username: "nope"
+  }
     name: "Luis Takahashi",
     country: "Brazil",
     tech_stack: ["Js", "React", "Typescript"],

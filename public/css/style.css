@@ -53,14 +53,15 @@ ul {
   list-style: none;
 }
 
-@media (max-width: 768px) {
+
+@media only screen and (max-width: 1040px) {
   .cards {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 2fr 50%;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
   .cards {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
   }
 }
