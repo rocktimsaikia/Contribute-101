@@ -4,6 +4,11 @@ body {
   background: #fff;
   font-family: "Open Sans", sans-serif;
 }
+
+ul {
+  padding: 0;
+}
+
 #hero-page {
   font-family: "Krub", sans-serif;
   text-align: center;
@@ -46,4 +51,16 @@ body {
 }
 .tech-stack > ul > li {
   list-style: none;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
