@@ -143,6 +143,12 @@ module.exports.list = [
     github_username: "mikalai-sokarau",
     twitter_username: "nope"
   }
+    name: "Luis Takahashi",
+    country: "Brazil",
+    tech_stack: ["Js", "React", "Typescript"],
+    github_username: "luistak",
+    twitter_username: "_luistak"
+  },
 
   /* Template : 
   {

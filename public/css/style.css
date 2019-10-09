@@ -4,6 +4,11 @@ body {
   background: #fff;
   font-family: "Open Sans", sans-serif;
 }
+
+ul {
+  padding: 0;
+}
+
 #hero-page {
   font-family: "Krub", sans-serif;
   text-align: center;
@@ -47,6 +52,7 @@ body {
 .tech-stack > ul > li {
   list-style: none;
 }
+
 
 @media only screen and (max-width: 1040px) {
   .cards {
