@@ -193,5 +193,13 @@ module.exports.list = [
     tech_stack: ["Angular", "Node", "Express"],
     github_username: "grvv",
     twitter_username: "#"
-  }
+  },
+  {
+  name: "Michael",
+  country: "United States of America",
+  role: "To be filled",
+  tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
+  github_username: "9112Michael",
+  twitter_username: "#"
+}
 ];
