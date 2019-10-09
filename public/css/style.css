@@ -41,6 +41,10 @@ ul {
   color: #333;
   box-shadow: 0 16px 48px #e3e7eb;
   border-top: 4px solid #5aff62;
+  border-radius: 10px;
+}
+.info_card:hover{
+  box-shadow:0 10px 30px #5aff62;;
 }
 .info_card > a {
   font-size: 30px;
