@@ -75,7 +75,9 @@
           <li>
             <img src="<%=obj%>" alt="" />
             <h4><%=obj.name%></h4>
-            <p><%=obj.role%></p>
+            <% if (obj.role){ %>
+              <p><%=obj.role%></p>
+            <% } %>
             <p><%=obj.country%></p>
 
             <div class="tech-stack">
