@@ -156,21 +156,19 @@ module.exports.list = [
     tech_stack: ["JS", "HTML", "CSS"],
     github_username: "mikalai-sokarau",
     twitter_username: "nope"
-  }
+  },
+  {
     name: "Luis Takahashi",
     country: "Brazil",
     tech_stack: ["Js", "React", "Typescript"],
     github_username: "luistak",
     twitter_username: "_luistak"
   },
-
-  /* Template : 
   {
-    name: "",
-    country: "",
-    tech_stack: ["", "", ""],
-    github_username: "",
-    twitter_username: ""
-  },
-  */
+    name: "Gaurav",
+    country: "India",
+    tech_stack: ["Angular", "Node", "Express"],
+    github_username: "grvv",
+    twitter_username: "#"
+  }
 ];
