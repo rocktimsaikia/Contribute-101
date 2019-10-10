@@ -195,11 +195,29 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
+
     name: "Rajprakash",
     country: "India",
+    role: "To be filled",
     tech_stack: ["ReactJS", "Competitive Programming", "BurpSuite"],
     github_username: "rajprakash00",
     twitter_username: "RajprakashSahoo"
+  },
+  {
+    name: "Kevin Nathaniel",
+    country: "Indonesia",
+    role: "To be filled",
+    tech_stack: ["ReactJS", "Java", "PostgreSQL"],
+    github_username: "kevin2000141",
+    twitter_username: "-"
+  },
+  {
+    name: "Saeed",
+    country: "Iran",
+    role: "Mobile Developer",
+    tech_stack: ["Android", "iOS", "Node"],
+    github_username: "saeed-rz",
+    twitter_username: "@SaeedRezaeii"
   }
 
   /* USE THIS TEMPLATE
