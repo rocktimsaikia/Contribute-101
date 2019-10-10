@@ -195,6 +195,13 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
+    name: "Kevin Nathaniel",
+    country: "Indonesia",
+    tech_stack: ["ReactJS", "Java", "PostgreSQL"],
+    github_username: "kevin2000141",
+    twitter_username: "-"
+  },
+  {
     name: "Saeed",
     country: "Iran",
     role: "Mobile Developer",
