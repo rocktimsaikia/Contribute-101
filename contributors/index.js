@@ -281,6 +281,14 @@ module.exports.list = [
     tech_stack: ["C++", "Python", "JavaScript", "React"],
     github_username: "upasanadeka",
     twitter_username: "upasana_deka"
+  },
+  {
+    name: "Siddhant",
+    country: "India",
+    role: "To be Filled",
+    tech_stack: ["JavaScript", "MaterializeCSS", "Node"],
+    github_username: "FuzzySid",
+    twitter_username: "#"
   }
 
   /* USE THIS TEMPLATE
