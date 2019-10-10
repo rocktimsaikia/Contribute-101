@@ -1,11 +1,11 @@
 module.exports.list = [
   {
-    name: "Rocktim",
-    country: "India",
-    role: "To be filled",
+    name: "Supun",
+    country: "Sri Lanka",
+    role: "Undergraduate",
     tech_stack: ["React", "Node", "Express"],
-    github_username: "RocktimSaikia",
-    twitter_username: "RocktimSaikia10"
+    github_username: "chathuranga0307",
+    twitter_username: "#"
   },
   {
     name: "Alejandro García",
