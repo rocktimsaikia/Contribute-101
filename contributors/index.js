@@ -187,6 +187,14 @@ module.exports.list = [
     twitter_username: "_luistak"
   },
   {
+    name: "Akash Kumar",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["Python", "C++", "Machine Learning"],
+    github_username: "aaakashkumar",
+    twitter_username: "piratedvirus09"
+  },
+  {
     name: "Gaurav",
     country: "India",
     role: "To be filled",
