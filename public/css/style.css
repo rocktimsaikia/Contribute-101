@@ -26,7 +26,7 @@ ul {
   font-family: "Raleway";
 }
 .cards > .info_card > li > img {
-  margin: 7px 0 4px 40px
+  margin: 7px 0 4px 40px;
 }
 .cards > .info_card > li > h4 {
   color: #333;
@@ -54,6 +54,9 @@ ul {
   color: #333;
   box-shadow: 0 16px 48px #e3e7eb;
   border-top: 6px solid #5aff62;
+}
+.info_card > li {
+  margin-top: 20px;
 }
 .info_card > a {
   font-size: 30px;
