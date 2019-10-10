@@ -193,7 +193,16 @@ module.exports.list = [
     tech_stack: ["Angular", "Node", "Express"],
     github_username: "grvv",
     twitter_username: "#"
-  }
+  },
+
+  {
+    name: "Riya",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["MongoDB", "Express", "Node"],
+    github_username: "Icor101",
+    twitter_username: "#"
+  },
 
   /* USE THIS TEMPLATE
 
