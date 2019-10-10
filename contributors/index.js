@@ -187,6 +187,14 @@ module.exports.list = [
     twitter_username: "_luistak"
   },
   {
+    name: "Akash Kumar",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["Python", "C++", "Machine Learning"],
+    github_username: "aaakashkumar",
+    twitter_username: "piratedvirus09"
+  },
+  {
     name: "Gaurav",
     country: "India",
     role: "To be filled",
@@ -194,7 +202,46 @@ module.exports.list = [
     github_username: "grvv",
     twitter_username: "#"
   },
-
+  {
+    name: "Yatharth",
+    country: "India",
+    role: "To be Filled",
+    tech_stack: ["ReactJS", "Node", "Express"],
+    github_username: "yatharth17",
+    twitter_username: "#"
+  },
+  {
+  name: "Michael",
+  country: "United States of America",
+  role: "To be filled",
+  tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
+  github_username: "9112Michael",
+  twitter_username: "#"
+  },
+  {
+    name: "Rajprakash",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["ReactJS", "Competitive Programming", "BurpSuite"],
+    github_username: "rajprakash00",
+    twitter_username: "RajprakashSahoo"
+  },
+  {
+    name: "Kevin Nathaniel",
+    country: "Indonesia",
+    role: "To be filled",
+    tech_stack: ["ReactJS", "Java", "PostgreSQL"],
+    github_username: "kevin2000141",
+    twitter_username: "-"
+  },
+  {
+    name: "Saeed",
+    country: "Iran",
+    role: "Mobile Developer",
+    tech_stack: ["Android", "iOS", "Node"],
+    github_username: "saeed-rz",
+    twitter_username: "@SaeedRezaeii"
+  },
   {
     name: "Riya",
     country: "India",
