@@ -1,11 +1,11 @@
 module.exports.list = [
   {
-    name: "Rocktim",
-    country: "India",
-    role: "To be filled",
+    name: "Supun",
+    country: "Sri Lanka",
+    role: "Undergraduate",
     tech_stack: ["React", "Node", "Express"],
-    github_username: "RocktimSaikia",
-    twitter_username: "RocktimSaikia10"
+    github_username: "chathuranga0307",
+    twitter_username: "#"
   },
   {
     name: "Alejandro García",
@@ -257,7 +257,15 @@ module.exports.list = [
     tech_stack: ["MongoDB", "Express", "Node", "VueJS"],
     github_username: "shyamunnikrishnan",
     twitter_username: "shyam_uk"
-  }
+  },
+  {
+    name: "M. Oliveira",
+    country: "Portugal",
+    role: "full stack software dev",
+    tech_stack: ["java", "javascript", "python", "react],
+    github_username: "m-oliv",
+    twitter_username: "#"
+  },
 
   /* USE THIS TEMPLATE
 
