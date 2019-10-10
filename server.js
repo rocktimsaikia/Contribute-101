@@ -1,16 +1,27 @@
+const { list } = require("./contributors/index");
+
 const express = require("express");
 const app = express();
-const { list } = require("./contributors/index");
+const http = require("http");
+const reload = require("reload");
+
+app.set("port", process.env.PORT || 3000);
 
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+
+const server = http.createServer(app);
 
 app.get("/", (req, res) => {
   res.render("index", { List: list });
 });
 
-const port = process.env.PORT || 5000;
-
-app.listen(port, () => {
-  console.log(`Server connected at port ${port}`);
-});
+reload(app)
+  .then(() => {
+    server.listen(app.get("port"), () => {
+      console.log(`Server is connected to ${app.get("port")}`);
+    });
+  })
+  .catch(err => {
+    console.log("Reload could not start", err);
+  });
