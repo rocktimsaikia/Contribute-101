@@ -251,6 +251,14 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
+    name: "Shyam Unnikrishnan",
+    country: "India",
+    role: "Full Stack Developer",
+    tech_stack: ["MongoDB", "Express", "Node", "VueJS"],
+    github_username: "shyamunnikrishnan",
+    twitter_username: "shyam_uk"
+  },
+  {
     name: "M. Oliveira",
     country: "Portugal",
     role: "full stack software dev",
