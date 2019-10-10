@@ -203,6 +203,14 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
+    name: "Yatharth",
+    country: "India",
+    role: "To be Filled",
+    tech_stack: ["ReactJS", "Node", "Express"],
+    github_username: "yatharth17",
+    twitter_username: "#"
+  },
+  {
   name: "Michael",
   country: "United States of America",
   role: "To be filled",
