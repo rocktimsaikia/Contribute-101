@@ -68,6 +68,14 @@ module.exports.list = [
     twitter_username: "MeisterShill"
   },
   {
+    name: "Sibin Joseph",
+    country: "IN",
+    role: "To be filled",
+    tech_stack: ["JavaScript", "Node", "Express"],
+    github_username: "sibinjoseph111",
+    twitter_username: "sibin1000"
+  },
+  {
     name: "Silver",
     country: "Earth",
     role: "To be filled",
