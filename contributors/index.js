@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
+    name: "Wisnu Febriadi",
+    country: "Indonesia",
+    role: "To be filled",
+    tech_stack: ["Flutter", "Kotlin", "Swift"],
+    github_username: "wfebriad",
+    twitter_username: "#"
+  },
+  {
     name: "Alejandro García",
     country: "España",
     role: "To be filled",
@@ -16,11 +24,11 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
-    name: "Wisnu Febriadi",
-    country: "Indonesia",
+    name: "Dhanam Parekh",
+    country: "India",
     role: "To be filled",
-    tech_stack: ["Flutter", "Kotlin", "Swift"],
-    github_username: "wfebriad",
+    tech_stack: ["Java", "Python", "C#"],
+    github_username: "Dhanam77",
     twitter_username: "#"
   },
   {
