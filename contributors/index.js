@@ -285,7 +285,7 @@ module.exports.list = [
   {
     name: "Siddhant",
     country: "India",
-    role: "To be Filled",
+    role: "Full stack web developer",
     tech_stack: ["JavaScript", "MaterializeCSS", "Node"],
     github_username: "FuzzySid",
     twitter_username: "#"
