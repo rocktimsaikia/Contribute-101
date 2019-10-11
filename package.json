@@ -4,7 +4,8 @@
   "description": "A simple project for the first time open source contributors",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev:start": "nodemon server.js -e ejs"
   },
   "author": "Rocktim Saikia",
   "license": "MIT",
