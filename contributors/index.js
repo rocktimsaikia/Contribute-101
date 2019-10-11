@@ -211,12 +211,12 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
-  name: "Michael",
-  country: "United States of America",
-  role: "To be filled",
-  tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
-  github_username: "9112Michael",
-  twitter_username: "#"
+    name: "Michael",
+    country: "United States of America",
+    role: "To be filled",
+    tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
+    github_username: "9112Michael",
+    twitter_username: "#"
   },
   {
     name: "Rajprakash",
@@ -262,10 +262,10 @@ module.exports.list = [
     name: "M. Oliveira",
     country: "Portugal",
     role: "full stack software dev",
-    tech_stack: ["java", "javascript", "python", "react],
+    tech_stack: ["java", "javascript", "python", "react"],
     github_username: "m-oliv",
     twitter_username: "#"
-  },
+  }
 
   /* USE THIS TEMPLATE
 
