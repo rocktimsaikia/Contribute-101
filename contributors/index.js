@@ -325,7 +325,7 @@ module.exports.list = [
   {
     name: "LucasOe",
     country: "Germany",
-    role: "To be filled",
+    role: "Frontend Developer",
     tech_stack: ["Java", "NodeJS", "HTML"],
     github_username: "LucasOe",
     twitter_username: "_LucasOe_"
