@@ -329,7 +329,7 @@ module.exports.list = [
     tech_stack: ['Java', 'NodeJS', 'HTML'],
     github_username: 'LucasOe',
     twitter_username: '_LucasOe_',
-  }
+  },
 
   /* USE THIS TEMPLATE
 
