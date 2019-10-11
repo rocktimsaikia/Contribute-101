@@ -4,7 +4,6 @@ const express = require("express");
 const app = express();
 const reload = require("reload");
 const http = require("http");
-const { list } = require("./contributors/index");
 
 const server = http.createServer(app);
 app.set("view engine", "ejs");
