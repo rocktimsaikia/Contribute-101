@@ -202,13 +202,13 @@ module.exports.list = [
     github_username: 'aaakashkumar',
     twitter_username: 'piratedvirus09'
   },
-  {
-    name: 'Gaurav',
-    country: 'India',
-    role: 'To be filled',
-    tech_stack: ['Angular', 'Node', 'Express'],
-    github_username: 'grvv',
-    twitter_username: '#'
+  {	
+    name: 'Gaurav',	
+    country: 'India',	
+    role: 'To be filled',	
+    tech_stack: ['Angular', 'Node', 'Express'],	
+    github_username: 'grvv',	
+    twitter_username: '#'	
   },
   {
     name: 'Yatharth',
@@ -294,7 +294,7 @@ module.exports.list = [
     name: 'Siddhant',
     country: 'India',
     role: 'Full stack web developer',
-    tech_stack: ['JavaScript', 'MaterializeCSS', 'Node'],
+    tech_stack: ['JavaScGauravript', 'MaterializeCSS', 'Node'],
     github_username: 'FuzzySid',
     twitter_username: '#'
   },
@@ -305,6 +305,14 @@ module.exports.list = [
     tech_stack: ['Python', 'Django', 'JavaScript', 'MaterializeCSS', 'NodeJS'],
     github_username: 'licensed',
     twitter_username: 'licensed'
+  },
+  {
+    name: "Jugal",
+    country: "India",
+    role: "Full Stack Developer",
+    tech_stack: ["Python", "Django", "Flask", "C", "C++", "Node"],
+    github_username: "tmw9",
+    twitter_username: "tmw9"
   }
 
   /* USE THIS TEMPLATE
