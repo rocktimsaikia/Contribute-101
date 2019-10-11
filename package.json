@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js -e ejs"
+    "start": "node server.js"
   },
   "author": "Rocktim Saikia",
   "license": "MIT",
@@ -17,10 +17,5 @@
   "engines": {
     "node": "8.12.0",
     "npm": "6.4.1"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.3",
-    "reload": "^3.0.2",
-    "supervisor": "^0.12.0"
   }
 }
