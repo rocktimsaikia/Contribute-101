@@ -274,7 +274,7 @@ module.exports.list = [
     github_username: "abhay27chauhan",
     twitter_username: "#"
   },
-   {
+  {
     name: "Upasana Deka",
     country: "India",
     role: "Undergrad Web Developer",
