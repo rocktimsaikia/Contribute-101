@@ -202,6 +202,7 @@ module.exports.list = [
     github_username: 'aaakashkumar',
     twitter_username: 'piratedvirus09'
   },
+<<<<<<< HEAD
   {
     name: 'Gaurav',
     country: 'India',
@@ -209,6 +210,15 @@ module.exports.list = [
     tech_stack: ['Angular', 'Node', 'Express'],
     github_username: 'grvv',
     twitter_username: '#'
+=======
+  {	
+    name: 'Gaurav',	
+    country: 'India',	
+    role: 'To be filled',	
+    tech_stack: ['Angular', 'Node', 'Express'],	
+    github_username: 'grvv',	
+    twitter_username: '#'	
+>>>>>>> 4d1f45c5155864bccaf15015a7bdba1f4ebfe09c
   },
   {
     name: 'Yatharth',
@@ -307,12 +317,12 @@ module.exports.list = [
     twitter_username: 'licensed'
   },
   {
-    name: 'Jugal',
-    country: 'India',
-    role: 'Full Stack Developer',
-    tech_stack: ['Python', 'Django', 'Flask', 'C', 'C++', 'Node'],
-    github_username: 'tmw9',
-    twitter_username: 'tmw9'
+    name: "Jugal",
+    country: "India",
+    role: "Full Stack Developer",
+    tech_stack: ["Python", "Django", "Flask", "C", "C++", "Node"],
+    github_username: "tmw9",
+    twitter_username: "tmw9"
   },
   {
     name: 'Tiho Banov',
