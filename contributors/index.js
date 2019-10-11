@@ -306,6 +306,14 @@ module.exports.list = [
     github_username: "licensed",
     twitter_username: "licensed"
   },
+  {
+    name: "Supriyanta Poddar",
+    country: "India",
+    role: "Undergraduate",
+    tech_stack: ["ReactJs", "NodeJs", "Competitive Coding"],
+    github_username: "supriyanta",
+    twitter_username: "#"
+  },
 
   /* USE THIS TEMPLATE
 
