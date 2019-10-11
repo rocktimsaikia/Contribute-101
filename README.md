@@ -1,4 +1,9 @@
-# ✨Contribute101
+<h1 align="center">
+  ✨Contribute101
+</h1>
+<p align="center"> 
+<img src="https://travis-ci.org/RocktimSaikia/Contribute-101.svg?branch=master" />
+</p>
 
 > ✨ Contribute and get a step forward in completing the Hacktoberfest 2019.
 
