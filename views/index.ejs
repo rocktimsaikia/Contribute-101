@@ -67,33 +67,48 @@
       </div>
     </div>
     <!--Hero page starts-->
-    <div class="container-fluid text-center mt-5">
+    <div class="container-fluid mt-5">
       <ul class="cards">
         <% List.forEach((obj)=>{%>
+        <div class="info_card">
+          <li>
+            <h4><%=obj.name%></h4>
+            <% if (obj.role){ %>
+            <p><%=obj.role%></p>
+            <% } %>
+            <p><%=obj.country%></p>
+            <div class="tech-stack">
+              <p>My Tech Stack:</p>
+              <ol>
+                <li><%= obj.tech_stack[0] %></li>
+                <li><%= obj.tech_stack[1] %></li>
+                <li><%= obj.tech_stack[2] %></li>
+              </ol>
+            </div>
+          </li>
 
-        <li class="info_card">
-          <img src="<%=obj%>" alt="" />
-          <h5><%=obj.name%></h5>
-          <p><%=obj.country%></p>
-          <div class="tech-stack">
-            3 Techs you are learning :
-            <ul>
-              <li><%= obj.tech_stack[0] %></li>
-              <li><%= obj.tech_stack[1] %></li>
-              <li><%= obj.tech_stack[2] %></li>
-            </ul>
+          <div class="row">
+            <a
+              href="https://github.com/<%=obj.github_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-github-square"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/<%=obj.twitter_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
           </div>
-          <a href="https://github.com/<%=obj.github_username%>"
-            ><i class="fab fa-github-square"></i
-          ></a>
-          <a href="https://twitter.com/<%=obj.twitter_username%>"
-            ><i class="fab fa-twitter-square"></i
-          ></a>
-        </li>
+        </div>
+
         <%}) %>
       </ul>
     </div>
-
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="/reload/reload.js"></script> 
   </body>

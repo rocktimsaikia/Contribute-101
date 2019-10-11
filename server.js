@@ -1,9 +1,10 @@
+const { list } = require("./contributors/index");
+
 const express = require("express");
 const app = express();
 const reload = require("reload");
-const http = require('http');
+const http = require("http");
 const { list } = require("./contributors/index");
-
 
 const server = http.createServer(app);
 app.set("view engine", "ejs");
@@ -15,11 +16,12 @@ app.get("/", (req, res) => {
 
 const port = process.env.PORT || 5000;
 
-
-reload(app).then(function (reloadReturned) {
-  server.listen(port, function() {
-  console.log(`Server connected at port ${port}`);
+reload(app)
+  .then(function(reloadReturned) {
+    server.listen(port, function() {
+      console.log(`Server connected at port ${port}`);
+    });
+  })
+  .catch(function(err) {
+    console.err("Reload error occured: ", err);
   });
-}).catch(function (err) {
-  console.err("Reload error occured: ", err);
-});

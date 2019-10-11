@@ -2,7 +2,7 @@
 
 > ✨ Contribute and get a step forward in completing the Hacktoberfest 2019.
 
-![alt text](screenshots/website.png)
+![alt text](screenshots/new_website.png);
 
 ---
 
@@ -53,7 +53,7 @@ But for now lets get straight into work.
 - Now go to _contributors_/ _index.js_ file.
 - Then add your details with given object model.
 
-![alt text](screenshots/template.jpg)
+![alt text](screenshots/template_object.jpg);
 
 4. Now create a new remote branch and push our modified remote repo to our github repo :
    - `git checkout -b <BranchName>` [ex : `git checkout -b myCard`]

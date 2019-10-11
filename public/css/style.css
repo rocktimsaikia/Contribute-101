@@ -25,34 +25,74 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   font-family: "Raleway";
 }
-.cards > .info_card > h5 {
+.cards > .info_card > li > img {
+  margin: 7px 0 4px 40px;
+}
+.cards > .info_card > li > h4 {
   color: #333;
+  padding-left: 40px;
+  margin-bottom: 3px;
+  font-weight: 600;
+  line-height: 1;
+}
+.cards > .info_card > li > p {
+  color: rgb(161, 161, 161);
+  padding-left: 40px;
+  margin: 0;
   font-weight: 600;
 }
-.cards > .info_card > p {
-  color: rgb(141, 141, 141);
-  font-weight: 600;
+.cards > .info_card > li > .tech-stack {
+  margin: 10px 0 0 60px;
+}
+.cards > .info_card > li > .tech-stack > ol {
+  margin: 0 18px 20px 0;
 }
 .cards > .info_card {
   font-weight: 600;
-  text-align: center;
-  padding: 20px;
+  padding: 0 20px;
   background: #fff;
   color: #333;
   box-shadow: 0 16px 48px #e3e7eb;
-  border-top: 4px solid #5aff62;
+  border-top: 6px solid #5aff62;
+  border-radius: 10px;
+}
+.info_card:hover{
+  box-shadow:0 10px 30px #5aff62;
+}
+.info_card > li {
+  margin-top: 20px;
 }
 .info_card > a {
   font-size: 30px;
   margin: 10px;
 }
-.tech-stack > ul {
-  text-align: left;
+.tech-stack > p {
+  margin: 0;
 }
-.tech-stack > ul > li {
-  list-style: none;
+.tech-stack > ol {
+  margin-left: 0;
 }
-
+.social-media {
+  background-color: #f66767;
+  padding: 6px;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  line-height: 17px;
+}
+.social-media:hover {
+  background-color: #d35656;
+}
+.social-media > a:hover {
+  text-decoration: none;
+}
+.social-media > i {
+  font-size: 23px;
+  color: black;
+  margin: 0 auto;
+  padding: 3px;
+  vertical-align: middle;
+}
 
 @media only screen and (max-width: 1040px) {
   .cards {
