@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--External links-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+
+  <body>
+    <!--Navbar starts-->
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand"
+        >Contribute101 <i class="fas fa-code-branch"></i
+      ></a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a
+            class="nav-link text-light"
+            href="https://rocktimsaikia.herokuapp.com/"
+            target="_blank"
+            >Author</a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link text-light"
+            href="https://github.com/RocktimSaikia/Contribute-101"
+            target="_blank"
+            >Github <i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <!--Navbar starts-->
+
+    <!--Hero page starts-->
+    <div class="hero">
+      <div id="hero-page">
+        <h2>Lets Dive Into Open Source Projects Starting Today.</h2>
+        <p>
+          This is my simple effort to get you familiar with the steps on how to
+          get into contributing to OSP.
+        </p>
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=RocktimSaikia&type=follow&count=true"
+          frameborder="0"
+          scrolling="0"
+          width="170px"
+          height="20px"
+        ></iframe>
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=RocktimSaikia&repo=Contribute-101&type=star&count=true"
+          frameborder="0"
+          scrolling="0"
+          width="170px"
+          height="20px"
+        ></iframe>
+      </div>
+    </div>
+    <!--Hero page starts-->
+    <div class="container-fluid mt-5">
+      <ul class="cards">
+        <% List.forEach((obj)=>{%>
+        <div class="info_card">
+          <li>
+            <h4><%=obj.name%></h4>
+            <% if (obj.role){ %>
+            <p><%=obj.role%></p>
+            <% } %>
+            <p><%=obj.country%></p>
+            <div class="tech-stack">
+              <p>My Tech Stack:</p>
+              <ol>
+                <li><%= obj.tech_stack[0] %></li>
+                <li><%= obj.tech_stack[1] %></li>
+                <li><%= obj.tech_stack[2] %></li>
+              </ol>
+            </div>
+          </li>
+
+          <div class="row">
+            <a
+              href="https://github.com/<%=obj.github_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-github-square"></i>
+            </a>
+
+            <a
+              href="https://twitter.com/<%=obj.twitter_username%>"
+              class="social-media col"
+              target="_blank"
+            >
+              <i class="fab fa-twitter-square"></i>
+            </a>
+          </div>
+        </div>
+        <%}) %>
+      </ul>
+    </div>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="/reload/reload.js"></script>
+  </body>
+</html>
