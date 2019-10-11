@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:start": "nodemon index.js -e ejs",
-    "start": "node index.js"
+    "dev:start": "nodemon server.js -e ejs",
+    "start": "node server.js"
   },
   "author": "Rocktim Saikia",
   "license": "MIT",
