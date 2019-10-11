@@ -323,12 +323,12 @@ module.exports.list = [
     twitter_username: '',
   },
   {
-    name: "LucasOe",
-    country: "Germany",
-    role: "Frontend Developer",
-    tech_stack: ["Java", "NodeJS", "HTML"],
-    github_username: "LucasOe",
-    twitter_username: "_LucasOe_"
+    name: 'LucasOe',
+    country: 'Germany',
+    role: 'Frontend Developer',
+    tech_stack: ['Java', 'NodeJS', 'HTML'],
+    github_username: 'LucasOe',
+    twitter_username: '_LucasOe_',
   }
 
   /* USE THIS TEMPLATE
