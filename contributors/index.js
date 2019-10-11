@@ -274,7 +274,7 @@ module.exports.list = [
     github_username: "abhay27chauhan",
     twitter_username: "#"
   },
-   {
+  {
     name: "Upasana Deka",
     country: "India",
     role: "Undergrad Web Developer",
@@ -297,7 +297,7 @@ module.exports.list = [
     tech_stack: ["Python", "Django", "JavaScript", "MaterializeCSS", "NodeJS"],
     github_username: "licensed",
     twitter_username: "licensed"
-  }  
+  },
 
   /* USE THIS TEMPLATE
 
