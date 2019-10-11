@@ -250,6 +250,14 @@ module.exports.list = [
     github_username: "Icor101",
     twitter_username: "#"
   },
+  {
+    name: "Vishal",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["Machine learning", "Python", "Java"],
+    github_username: "vishalyadav0804",
+    twitter_username: "#"
+  },
 
   /* USE THIS TEMPLATE
 
