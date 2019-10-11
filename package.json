@@ -4,14 +4,12 @@
   "description": "A simple project for the first time open source contributors",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:start": "nodemon server.js -e ejs",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev:start": "nodemon server.js -e ejs"
   },
   "author": "Rocktim Saikia",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.0",
     "ejs": "^2.6.1",
     "express": "^4.16.4"
   },
