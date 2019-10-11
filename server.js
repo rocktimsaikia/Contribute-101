@@ -24,3 +24,5 @@ reload(app)
   .catch(err => {
     console.err('Reload error occurred: ', err);
   });
+
+module.exports = app;
