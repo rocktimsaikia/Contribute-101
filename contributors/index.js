@@ -1,11 +1,19 @@
 module.exports.list = [
-  {
-    name: "Rocktim",
+ {
+    name: "Jitesh",
     country: "India",
-    role: "To be filled",
+    role: "Undergraduate",
+    tech_stack: ["Node", "JavaScript", "Express"],
+    github_username: "jiteshkumarr",
+    twitter_username: "#"
+  },
+  {
+    name: "Supun",
+    country: "Sri Lanka",
+    role: "Undergraduate",
     tech_stack: ["React", "Node", "Express"],
-    github_username: "RocktimSaikia",
-    twitter_username: "RocktimSaikia10"
+    github_username: "chathuranga0307",
+    twitter_username: "#"
   },
   {
     name: "Alejandro García",
@@ -211,12 +219,12 @@ module.exports.list = [
     twitter_username: "#"
   },
   {
-  name: "Michael",
-  country: "United States of America",
-  role: "To be filled",
-  tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
-  github_username: "9112Michael",
-  twitter_username: "#"
+    name: "Michael",
+    country: "United States of America",
+    role: "To be filled",
+    tech_stack: ["HTML5", "CSS3", "JavaScript (ES6)"],
+    github_username: "9112Michael",
+    twitter_username: "#"
   },
   {
     name: "Rajprakash",
@@ -250,13 +258,62 @@ module.exports.list = [
     github_username: "Icor101",
     twitter_username: "#"
   },
+  
   {
     name: "Vishal",
     country: "India",
     role: "To be filled",
     tech_stack: ["Machine learning", "Python", "Java"],
-    github_username: "vishalyadav0804",
+    github_username: "Vishalyadav0804",
     twitter_username: "#"
+  },
+  {
+    name: "Shyam Unnikrishnan",
+    country: "India",
+    role: "Full Stack Developer",
+    tech_stack: ["MongoDB", "Express", "Node", "VueJS"],
+    github_username: "shyamunnikrishnan",
+    twitter_username: "shyam_uk"
+  },
+  {
+    name: "M. Oliveira",
+    country: "Portugal",
+    role: "full stack software dev",
+    tech_stack: ["java", "javascript", "python", "react"],
+    github_username: "m-oliv",
+    twitter_username: "#"
+  },
+  {
+    name: "Abhay",
+    country: "India",
+    role: "Undergraduate",
+    tech_stack: ["C++", "JavaScript", "HTML", "CSS"],
+    github_username: "abhay27chauhan",
+    twitter_username: "#"
+  },
+  {
+    name: "Upasana Deka",
+    country: "India",
+    role: "Undergrad Web Developer",
+    tech_stack: ["C++", "Python", "JavaScript", "React"],
+    github_username: "upasanadeka",
+    twitter_username: "upasana_deka"
+  },
+  {
+    name: "Siddhant",
+    country: "India",
+    role: "Full stack web developer",
+    tech_stack: ["JavaScript", "MaterializeCSS", "Node"],
+    github_username: "FuzzySid",
+    twitter_username: "#"
+  },
+  {
+    name: "Ricardo Dantas",
+    country: "Brazil",
+    role: "Full stack web developer",
+    tech_stack: ["Python", "Django", "JavaScript", "MaterializeCSS", "NodeJS"],
+    github_username: "licensed",
+    twitter_username: "licensed"
   },
 
   /* USE THIS TEMPLATE
