@@ -305,6 +305,14 @@ module.exports.list = [
     tech_stack: ['Python', 'Django', 'JavaScript', 'MaterializeCSS', 'NodeJS'],
     github_username: 'licensed',
     twitter_username: 'licensed'
+  },
+  {
+    name: 'Tiho Banov',
+    country: 'Bulgaria',
+    role: 'Full stack web developer',
+    tech_stack: ['PHP', 'JavaScript', 'NodeJS'],
+    github_username: 'tbanov',
+    twitter_username: ''
   }
 
   /* USE THIS TEMPLATE
