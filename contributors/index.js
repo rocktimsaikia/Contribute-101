@@ -290,17 +290,4 @@ module.exports.list = [
     github_username: "FuzzySid",
     twitter_username: "#"
   }
-
-  /* USE THIS TEMPLATE
-
-  {
-    name: "your name",
-    country: "your country",
-    role: "what type of developer you are",
-    tech_stack: ["", "", ""],
-    github_username: "",
-    twitter_username: ""
-  },
-  
-  */
 ];
