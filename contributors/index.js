@@ -1,4 +1,12 @@
 module.exports.list = [
+ {
+    name: "Jitesh",
+    country: "India",
+    role: "Undergraduate",
+    tech_stack: ["Node", "JavaScript", "Express"],
+    github_username: "jiteshkumarr",
+    twitter_username: "#"
+  },
   {
     name: "Supun",
     country: "Sri Lanka",
