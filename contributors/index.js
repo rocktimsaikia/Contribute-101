@@ -1,4 +1,4 @@
-module.exports.list = [
+let List = [
   {
     name: 'Jitesh',
     country: 'India',
@@ -385,3 +385,13 @@ module.exports.list = [
 
   */
 ];
+
+List.forEach(obj => {
+  let Httpreq = new XMLHttpRequest();
+  Httpreq.open("GET","https://api.github.com/users/"+obj.github_username,false);
+  Httpreq.send(null);
+  let resp = JSON.parse(Httpreq.responseText);
+  obj.profile_picture = resp.avatar_url;
+});
+
+module.exports.list = List;

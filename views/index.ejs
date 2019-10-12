@@ -70,6 +70,7 @@
       <ul class="cards">
         <% List.forEach((obj)=>{%>
         <div class="info_card">
+          <img src="<%=obj.profile_picture%>" alt="profile_pic" class="img-thumbnail">
           <li>
             <h4><%=obj.name%></h4>
             <% if (obj.role){ %>
