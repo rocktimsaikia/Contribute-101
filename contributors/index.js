@@ -371,7 +371,14 @@ module.exports.list = [
     github_username: 'balumn',
     twitter_username: 'BaluMNandakumar',
   },
-
+  {
+    name: 'Kunal Katiyar',
+    country: 'India',
+    role: 'Python Developer',
+    tech_stack: ['Django', 'Selenium', 'Scrapy'],
+    github_username: 'kunalkatiyar',
+    twitter_username: 'KunalKatiyar',
+  },
   /* USE THIS TEMPLATE
 
   {
