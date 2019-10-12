@@ -1,11 +1,19 @@
 module.exports.list = [
   {
+    name: 'Jitesh',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Node', 'JavaScript', 'Express'],
+    github_username: 'jiteshkumarr',
+    twitter_username: '#'
+  },
+  {
     name: 'Supun',
     country: 'Sri Lanka',
     role: 'Undergraduate',
     tech_stack: ['React', 'Node', 'Express'],
     github_username: 'chathuranga0307',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Alejandro García',
@@ -13,7 +21,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Swift', 'Laravel', 'JavaScript'],
     github_username: 'OwboxAl3x',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Wisnu Febriadi',
@@ -21,7 +29,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Flutter', 'Kotlin', 'Swift'],
     github_username: 'wfebriad',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Danielle Lyons',
@@ -29,7 +37,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['JavaScript', 'Node', 'Express'],
     github_username: 'drding00',
-    twitter_username: 'danachew',
+    twitter_username: 'danachew'
   },
   {
     name: 'Arty',
@@ -37,7 +45,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['React', 'Redux', 'Sequelize ORM'],
     github_username: 'artysidorenko',
-    twitter_username: 'PJSmooth3',
+    twitter_username: 'PJSmooth3'
   },
   {
     name: 'Ankur Kalambe',
@@ -45,7 +53,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Github', 'Robotics', 'Matlab'],
     github_username: 'ankurkalambe',
-    twitter_username: 'ankur_kalambe',
+    twitter_username: 'ankur_kalambe'
   },
   {
     name: 'Ly Chunvira',
@@ -53,7 +61,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Python', 'Vue', 'React'],
     github_username: '#',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'UMUT EKERDIKER',
@@ -62,10 +70,10 @@ module.exports.list = [
     tech_stack: [
       'JavaScript',
       'MATLAB Deep learning',
-      'Artificial Intelligence',
+      'Artificial Intelligence'
     ],
     github_username: 'RealBigpunch',
-    twitter_username: 'MeisterShill',
+    twitter_username: 'MeisterShill'
   },
   {
     name: 'Silver',
@@ -73,7 +81,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['React', 'Javascript', 'Css'],
     github_username: 'smarter23',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Anthony Kusuma',
@@ -81,7 +89,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Kotlin', 'Laravel'],
     github_username: 'anthonykusuma',
-    twitter_username: 'actuallyaka',
+    twitter_username: 'actuallyaka'
   },
   {
     name: 'Shriyansh Jain',
@@ -89,7 +97,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Machine Learning', 'Competitive Coding'],
     github_username: 'Shriyansh-J',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Nikhil Vaidyar',
@@ -97,7 +105,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Golang', 'Graphql'],
     github_username: 'nikzayn',
-    twitter_username: 'NikhilVaidyar',
+    twitter_username: 'NikhilVaidyar'
   },
   {
     name: 'Kee Magbanua',
@@ -105,7 +113,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['JavaScript', 'React', 'Sass'],
     github_username: 'samcode23',
-    twitter_username: 'zxcmoisturizer',
+    twitter_username: 'zxcmoisturizer'
   },
   {
     name: 'Nikhil Gautam',
@@ -113,7 +121,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Machine Learning', 'Qt'],
     github_username: 'nik-gautam',
-    twitter_username: 'NikhilG30907544',
+    twitter_username: 'NikhilG30907544'
   },
   {
     name: 'Shynd',
@@ -121,7 +129,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['C#', 'WPF', 'WCF'],
     github_username: 'Shynd',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Matteo F',
@@ -129,7 +137,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Laravel', 'Java', 'Python'],
     github_username: 'matteoformenti',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Aman Agarwal',
@@ -137,14 +145,14 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Competitive Programming', 'React.Js', 'MongoDB'],
     github_username: 'BeastMaster07',
-    twitter_username: 'amanag_007',
+    twitter_username: 'amanag_007'
   },
   {
     name: 'Thanate',
     country: 'Thailand',
     tech_stack: ['JS', 'Vue', 'Ruby'],
     github_username: 'mugenboat',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Jay Parmani',
@@ -152,7 +160,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['NodeJS', 'React Native', 'Blockchain'],
     github_username: 'jsparmani',
-    twitter_username: 'jsparmani',
+    twitter_username: 'jsparmani'
   },
   {
     name: 'Pranshu Kharkwal',
@@ -160,7 +168,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['NodeJS', 'React Native', 'Blockchain'],
     github_username: 'pranshukharkwal',
-    twitter_username: 'hellopranshu',
+    twitter_username: 'hellopranshu'
   },
   {
     name: 'Aditya Kumar Singh',
@@ -168,7 +176,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Django', 'Arduino', 'Angular.js'],
     github_username: 'adityakumar2809',
-    twitter_username: 'adityakumar2809',
+    twitter_username: 'adityakumar2809'
   },
   {
     name: 'Mikalai Sokarau',
@@ -176,7 +184,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['JS', 'HTML', 'CSS'],
     github_username: 'mikalai-sokarau',
-    twitter_username: 'nope',
+    twitter_username: 'nope'
   },
   {
     name: 'Luis Takahashi',
@@ -184,7 +192,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Js', 'React', 'Typescript'],
     github_username: 'luistak',
-    twitter_username: '_luistak',
+    twitter_username: '_luistak'
   },
   {
     name: 'Akash Kumar',
@@ -192,7 +200,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Python', 'C++', 'Machine Learning'],
     github_username: 'aaakashkumar',
-    twitter_username: 'piratedvirus09',
+    twitter_username: 'piratedvirus09'
   },
   {
     name: 'Gaurav',
@@ -200,7 +208,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Angular', 'Node', 'Express'],
     github_username: 'grvv',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Yatharth',
@@ -208,7 +216,7 @@ module.exports.list = [
     role: 'To be Filled',
     tech_stack: ['ReactJS', 'Node', 'Express'],
     github_username: 'yatharth17',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Michael',
@@ -216,7 +224,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['HTML5', 'CSS3', 'JavaScript (ES6)'],
     github_username: '9112Michael',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Rajprakash',
@@ -224,7 +232,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Competitive Programming', 'BurpSuite'],
     github_username: 'rajprakash00',
-    twitter_username: 'RajprakashSahoo',
+    twitter_username: 'RajprakashSahoo'
   },
   {
     name: 'Kevin Nathaniel',
@@ -232,7 +240,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['ReactJS', 'Java', 'PostgreSQL'],
     github_username: 'kevin2000141',
-    twitter_username: '-',
+    twitter_username: '-'
   },
   {
     name: 'Saeed',
@@ -240,7 +248,7 @@ module.exports.list = [
     role: 'Mobile Developer',
     tech_stack: ['Android', 'iOS', 'Node'],
     github_username: 'saeed-rz',
-    twitter_username: '@SaeedRezaeii',
+    twitter_username: '@SaeedRezaeii'
   },
   {
     name: 'Riya',
@@ -248,7 +256,7 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['MongoDB', 'Express', 'Node'],
     github_username: 'Icor101',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Shyam Unnikrishnan',
@@ -256,7 +264,7 @@ module.exports.list = [
     role: 'Full Stack Developer',
     tech_stack: ['MongoDB', 'Express', 'Node', 'VueJS'],
     github_username: 'shyamunnikrishnan',
-    twitter_username: 'shyam_uk',
+    twitter_username: 'shyam_uk'
   },
   {
     name: 'M. Oliveira',
@@ -264,7 +272,7 @@ module.exports.list = [
     role: 'full stack software dev',
     tech_stack: ['java', 'javascript', 'python', 'react'],
     github_username: 'm-oliv',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Abhay',
@@ -272,7 +280,7 @@ module.exports.list = [
     role: 'Undergraduate',
     tech_stack: ['C++', 'JavaScript', 'HTML', 'CSS'],
     github_username: 'abhay27chauhan',
-    twitter_username: '#',
+    twitter_username: '#'
   },
   {
     name: 'Upasana Deka',
@@ -280,7 +288,7 @@ module.exports.list = [
     role: 'Undergrad Web Developer',
     tech_stack: ['C++', 'Python', 'JavaScript', 'React'],
     github_username: 'upasanadeka',
-    twitter_username: 'upasana_deka',
+    twitter_username: 'upasana_deka'
   },
   {
     name: 'Siddhant',
@@ -288,6 +296,27 @@ module.exports.list = [
     role: 'Full stack web developer',
     tech_stack: ['JavaScript', 'MaterializeCSS', 'Node'],
     github_username: 'FuzzySid',
-    twitter_username: '#',
+    twitter_username: '#'
   },
+  {
+    name: 'Ricardo Dantas',
+    country: 'Brazil',
+    role: 'Full stack web developer',
+    tech_stack: ['Python', 'Django', 'JavaScript', 'MaterializeCSS', 'NodeJS'],
+    github_username: 'licensed',
+    twitter_username: 'licensed'
+  }
+
+  /* USE THIS TEMPLATE
+
+  {
+    name: "your name",
+    country: "your country",
+    role: "what type of developer you are",
+    tech_stack: ["", "", ""],
+    github_username: "",
+    twitter_username: ""
+  },
+  
+  */
 ];
