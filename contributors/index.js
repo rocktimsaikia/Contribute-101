@@ -331,12 +331,12 @@ module.exports.list = [
     twitter_username: '_LucasOe_',
   },
   {
-    name: "Camilo Caquimbo",
-    country: "Colombia",
-    role: "Full stack",
-    tech_stack: ["PHP", "JavaScript", "Laravel"],
-    github_username: "camilocaquimbo",
-    twitter_username: "ccaquimbo"
+    name: 'Camilo Caquimbo',
+    country: 'Colombia',
+    role: 'Full stack',
+    tech_stack: ['PHP', 'JavaScript', 'Laravel'],
+    github_username: 'camilocaquimbo',
+    twitter_username: 'ccaquimbo',
   },
 
   /* USE THIS TEMPLATE
