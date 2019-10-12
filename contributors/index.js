@@ -330,6 +330,14 @@ module.exports.list = [
     github_username: 'LucasOe',
     twitter_username: '_LucasOe_',
   },
+  {
+    name: "Camilo Caquimbo",
+    country: "Colombia",
+    role: "Full stack",
+    tech_stack: ["PHP", "JavaScript", "Laravel"],
+    github_username: "camilocaquimbo",
+    twitter_username: "ccaquimbo"
+  },
 
   /* USE THIS TEMPLATE
 
@@ -341,6 +349,6 @@ module.exports.list = [
     github_username: "",
     twitter_username: ""
   },
-  
+
   */
 ];
