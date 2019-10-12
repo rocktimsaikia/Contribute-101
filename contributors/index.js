@@ -372,14 +372,21 @@ module.exports.list = [
     twitter_username: 'BaluMNandakumar',
   },
   {
+    name: 'Kunal Katiyar',
+    country: 'India',
+    role: 'Python Developer',
+    tech_stack: ['Django', 'Selenium', 'Scrapy'],
+    github_username: 'kunalkatiyar',
+    twitter_username: 'KunalKatiyar',
+  },
+  {
     name: "Vishakha Bansal",
     country: "India",
     role: "web developer",
     tech_stack: ["java" , "c++" , "html/css" , "opencv"],
     github_username: "vbansal20",
-    twitter_username: "#"
+    twitter_username: "#",
   },
-
   /* USE THIS TEMPLATE
 
   {
