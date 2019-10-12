@@ -377,7 +377,7 @@ module.exports.list = [
     role: 'Fullstack Developer',
     tech_stack: ['Javascript', 'NodeJS', 'Python'],
     github_username: 'ardiraika',
-    twitter_username: ""
+    twitter_username: ''
   },
   /* USE THIS TEMPLATE
 
