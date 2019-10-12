@@ -379,6 +379,14 @@ module.exports.list = [
     github_username: 'kunalkatiyar',
     twitter_username: 'KunalKatiyar',
   },
+  {
+    name: "Soumaya Ranjan",
+    country: "India",
+    role: "Full-Stack Developer",
+    tech_stack: ["LAMP", "iOS", "ionic-cordova"],
+    github_username: "bojack-horseman",
+    twitter_username: "big_daddy2802"
+  },
   /* USE THIS TEMPLATE
 
   {
