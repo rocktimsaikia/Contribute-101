@@ -70,8 +70,20 @@
       <ul class="cards">
         <% List.forEach((obj)=>{%>
         <div class="info_card">
+            <div class="info_card_image">
+              <img src="<%=obj.githubInfo.avatar_url%>" alt="avatar_url" width="50" height="auto">                
+            </div>
           <li>
             <h4><%=obj.name%></h4>
+            <% if (obj.githubInfo.company){ %>
+            <h3><%=obj.githubInfo.company%></h3>
+            <% } %>
+            <% if (obj.githubInfo.blog){ %>
+            <h3><%=obj.githubInfo.blog%></h3>  
+            <% } %>
+            <p> Repositories <a href="<%=obj.githubInfo.repos_url%>"> <%=obj.githubInfo.public_repos%></a> </p>  
+            <p> Followers <a href="<%=obj.githubInfo.followers_url%>"> <%=obj.githubInfo.followers%> </a></p>
+            <p> Following <%=obj.githubInfo.following%> </p>
             <% if (obj.role){ %>
             <p><%=obj.role%></p>
             <% } %>
