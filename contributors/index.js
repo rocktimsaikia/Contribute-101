@@ -23,6 +23,16 @@ module.exports.list = [
     github_username: 'jiteshkumarr',
     twitter_username: '#'
   },
+
+  {
+    name: 'Desire',
+    country: 'Zambia',
+    role: 'Undergraduate',
+    tech_stack: ['React', 'Python', 'C#'],
+    github_username: 'Desire01',
+    twitter_username: 'Chiefov1',
+  },
+
   {
     name: 'Supun',
     country: 'Sri Lanka',
