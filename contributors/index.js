@@ -1,4 +1,6 @@
-let List = [
+const https = require('https');
+
+const List = [
   {
     name: 'Jitesh',
     country: 'India',
@@ -387,11 +389,20 @@ let List = [
 ];
 
 List.forEach(obj => {
-  let Httpreq = new XMLHttpRequest();
-  Httpreq.open("GET","https://api.github.com/users/"+obj.github_username,false);
-  Httpreq.send(null);
-  let resp = JSON.parse(Httpreq.responseText);
-  obj.profile_picture = resp.avatar_url;
+  https.get(
+    `https://api.github.com/users/${obj.github_username}`,
+    { headers: { 'User-Agent': 'Mozilla/5.0' } },
+    resp => {
+      let data = ``;
+      resp.on('data', chunk => {
+        data += chunk;
+      });
+
+      resp.on('end', () => {
+        obj.profile_picture = JSON.parse(data).avarar_url;
+      });
+    }
+  );
 });
 
 module.exports.list = List;
