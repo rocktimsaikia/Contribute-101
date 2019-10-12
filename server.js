@@ -18,7 +18,6 @@ app.get('/', (req, res) => {
       countFetched += 1;
       contributor.githubInfo = result;
       if (list.length === countFetched) {
-        console.log(list);
         res.render('index', { List: list });
       }
     });

@@ -74,16 +74,17 @@
               <img src="<%=obj.githubInfo.avatar_url%>" alt="avatar_url" width="50" height="auto">                
             </div>
           <li>
-            <h4><%=obj.name%></h4>
+            <h4><%=obj.name%></h4>            
             <% if (obj.githubInfo.company){ %>
-            <h3><%=obj.githubInfo.company%></h3>
+            <h2><%=obj.githubInfo.company%></h2>
             <% } %>
             <% if (obj.githubInfo.blog){ %>
-            <h3><%=obj.githubInfo.blog%></h3>  
+            <h2><%=obj.githubInfo.blog%></h2>  
             <% } %>
-            <p> Repositories <a href="<%=obj.githubInfo.repos_url%>"> <%=obj.githubInfo.public_repos%></a> </p>  
-            <p> Followers <a href="<%=obj.githubInfo.followers_url%>"> <%=obj.githubInfo.followers%> </a></p>
-            <p> Following <%=obj.githubInfo.following%> </p>
+            <p><%=obj.githubInfo.login%></p>
+            <p> Repositories <a href="<%=obj.githubInfo.html_url%>?tab=repositories" target="_blank"> <%=obj.githubInfo.public_repos%></a> </p>  
+            <p> Followers <a href="<%=obj.githubInfo.html_url%>?tab=followers" target="_blank"> <%=obj.githubInfo.followers%> </a></p>
+            <p> Following <a href="<%=obj.githubInfo.html_url%>?tab=following" target="_blank"> <%=obj.githubInfo.following%></a></p>
             <% if (obj.role){ %>
             <p><%=obj.role%></p>
             <% } %>
@@ -100,7 +101,7 @@
 
           <div class="row">
             <a
-              href="https://github.com/<%=obj.github_username%>"
+              href="<%=obj.githubInfo.html_url%>"
               class="social-media col"
               target="_blank"
             >
