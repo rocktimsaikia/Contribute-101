@@ -437,15 +437,23 @@ module.exports.list = [
     github_username: 'bojack-horseman',
     twitter_username: 'big_daddy2802',
   },
+  {
+    name: "Sahil Manchanda",
+    country: "India",
+    role: "Android Developer",
+    tech_stack: ["Firebase", "java", "c++"],
+    github_username: "sahilmanchanda1999",
+    twitter_username: "#"
+  },
   /* USE THIS TEMPLATE
 
   {
-    name: "your name",
-    country: "your country",
-    role: "what type of developer you are",
-    tech_stack: ["", "", ""],
-    github_username: "",
-    twitter_username: ""
+    name: "Sahil Manchanda",
+    country: "India",
+    role: "Android Developer",
+    tech_stack: ["Firebase", "java", "c++"],
+    github_username: "sahilmanchanda1999",
+    twitter_username: "#"
   },
 
   */
