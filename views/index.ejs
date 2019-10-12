@@ -13,6 +13,15 @@
 
     <link rel="stylesheet" href="/css/style.css" />
   </head>
+  <script>
+    function fetchProfile(elem,un)
+    {
+    var Httpreq = new XMLHttpRequest(); // a new request
+    Httpreq.open("GET","https://api.github.com/users/"+un,false);
+    Httpreq.send(null);
+    elem.src = JSON.parse(Httpreq.responseText).avatar_url || "/placeholder.png"; 
+    }
+  </script>
 
   <body>
     <!--Navbar starts-->
@@ -70,7 +79,7 @@
       <ul class="cards">
         <% List.forEach((obj)=>{%>
         <div class="info_card">
-          <img src="<%=obj.profile_picture%>" alt="profile_pic" class="img-thumbnail">
+          <img src="placeholder.png" alt="profile_pic" class="img-thumbnail" onloadstart="fetchProfile(this,'<%=obj.github_username%>');">
           <li>
             <h4><%=obj.name%></h4>
             <% if (obj.role){ %>
