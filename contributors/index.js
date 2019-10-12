@@ -372,11 +372,11 @@ module.exports.list = [
     twitter_username: 'BaluMNandakumar',
   },
   {
-    name: "gian hays",
-    country: "Indonesia",
-    role: "Fullstack Developer",
-    tech_stack: ["Javascript", "NodeJS", "Python"],
-    github_username: "ardiraika",
+    name: 'gian hays',
+    country: 'Indonesia',
+    role: 'Fullstack Developer',
+    tech_stack: ['Javascript', 'NodeJS', 'Python'],
+    github_username: 'ardiraika',
     twitter_username: ""
   },
   /* USE THIS TEMPLATE
