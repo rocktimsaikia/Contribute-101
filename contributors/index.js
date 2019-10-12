@@ -363,6 +363,14 @@ module.exports.list = [
     github_username: 'phongduong',
     twitter_username: 'phong_lh_duong',
   },
+  {
+    name: 'Balu M N',
+    country: 'India',
+    role: 'Python Developer',
+    tech_stack: ['Django', 'Flask', 'ReactJS'],
+    github_username: 'balumn',
+    twitter_username: 'BaluMNandakumar',
+  },
 
   /* USE THIS TEMPLATE
 
