@@ -1,5 +1,21 @@
 module.exports.list = [
   {
+    name: 'Urmilla',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Flutter', 'JavaScript', 'Express'],
+    github_username: 'urmilla20',
+    twitter_username: '#',
+  },
+  {
+    name: 'Divanshi',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Node', 'JavaScript', 'Express'],
+    github_username: 'divanshi15',
+    twitter_username: '#',
+  },
+  {
     name: 'Jitesh',
     country: 'India',
     role: 'Undergraduate',
@@ -7,6 +23,16 @@ module.exports.list = [
     github_username: 'jiteshkumarr',
     twitter_username: '#',
   },
+
+  {
+    name: 'Desire',
+    country: 'Zambia',
+    role: 'Undergraduate',
+    tech_stack: ['React', 'Python', 'C#'],
+    github_username: 'Desire01',
+    twitter_username: 'Chiefov1',
+  },
+
   {
     name: 'Supun',
     country: 'Sri Lanka',
@@ -378,6 +404,38 @@ module.exports.list = [
     tech_stack: ['Django', 'Selenium', 'Scrapy'],
     github_username: 'kunalkatiyar',
     twitter_username: 'KunalKatiyar',
+  },
+  {
+    name: 'gian hays',
+    country: 'Indonesia',
+    role: 'Fullstack Developer',
+    tech_stack: ['Javascript', 'NodeJS', 'Python'],
+    github_username: 'ardiraika',
+    twitter_username: '',
+  },
+  {
+    name: 'Vishakha Bansal',
+    country: 'India',
+    role: 'web developer',
+    tech_stack: ['java', 'c++', 'html/css', 'opencv'],
+    github_username: 'vbansal20',
+    twitter_username: '#',
+  },
+  {
+    name: 'Lilian Ferreira',
+    country: 'Spain',
+    role: 'To be filled',
+    tech_stack: ['Java', 'Javascript', 'Python'],
+    github_username: 'lilianferreira',
+    twitter_username: 'lilianferreira',
+  },
+  {
+    name: 'Soumaya Ranjan',
+    country: 'India',
+    role: 'Full-Stack Developer',
+    tech_stack: ['LAMP', 'iOS', 'ionic-cordova'],
+    github_username: 'bojack-horseman',
+    twitter_username: 'big_daddy2802',
   },
   /* USE THIS TEMPLATE
 
