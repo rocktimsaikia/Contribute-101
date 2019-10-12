@@ -1,5 +1,13 @@
 module.exports.list = [
-  {
+{
+    name: 'Urmilla',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Flutter', 'JavaScript', 'Express'],
+    github_username: 'urmilla20',
+    twitter_username: '#',
+  }, 
+ {
     name: 'Jitesh',
     country: 'India',
     role: 'Undergraduate',
