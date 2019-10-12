@@ -396,7 +396,6 @@ module.exports.list = [
     twitter_username: 'KunalKatiyar'
   },
   {
-<<<<<<< HEAD
     name: 'gian hays',
     country: 'Indonesia',
     role: 'Fullstack Developer',
@@ -411,16 +410,23 @@ module.exports.list = [
     tech_stack: ['java', 'c++', 'html/css', 'opencv'],
     github_username: 'vbansal20',
     twitter_username: '#'
-  }
-=======
-    name: "Lilian Ferreira",
-    country: "Spain",
-    role: "To be filled",
-    tech_stack: ["Java", "Javascript", "Python"],
-    github_username: "lilianferreira",
-    twitter_username: "lilianferreira"
   },
->>>>>>> pr/91
+  {
+    name: 'Lilian Ferreira',
+    country: 'Spain',
+    role: 'To be filled',
+    tech_stack: ['Java', 'Javascript', 'Python'],
+    github_username: 'lilianferreira',
+    twitter_username: 'lilianferreira'
+  },
+  {
+    name: 'Soumaya Ranjan',
+    country: 'India',
+    role: 'Full-Stack Developer',
+    tech_stack: ['LAMP', 'iOS', 'ionic-cordova'],
+    github_username: 'bojack-horseman',
+    twitter_username: 'big_daddy2802'
+  }
   /* USE THIS TEMPLATE
 
   {
