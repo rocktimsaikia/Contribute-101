@@ -371,6 +371,14 @@ module.exports.list = [
     github_username: 'balumn',
     twitter_username: 'BaluMNandakumar',
   },
+  {
+    name: "Vishakha Bansal",
+    country: "India",
+    role: "web developer",
+    tech_stack: ["java" , "c++" , "html/css" , "opencv"],
+    github_username: "vbansal20",
+    twitter_username: "#"
+  },
 
   /* USE THIS TEMPLATE
 
