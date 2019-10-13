@@ -438,6 +438,14 @@ module.exports.list = [
     twitter_username: 'big_daddy2802',
   },
   {
+    name: 'Patrick',
+    country: 'USA',
+    role: 'student',
+    tech_stack: ['Java', 'Python'],
+    github_username: 'cspatrick',
+    twitter_username: '',
+  },
+  {
     name: 'Mudit Nagar',
     country: 'India',
     role: 'UI Developer',
