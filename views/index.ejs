@@ -71,6 +71,7 @@
         <% List.forEach((obj)=>{%>
         <div class="info_card">
           <li>
+            <img src="https://avatars.githubusercontent.com/<%=obj.github_username%>" alt="<%=obj.name%>" style="width:200px;height:200px;">
             <h4><%=obj.name%></h4>
             <% if (obj.role){ %>
             <p><%=obj.role%></p>
