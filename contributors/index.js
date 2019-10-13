@@ -469,4 +469,12 @@ module.exports.list = [
     github_username: 'sahilmanchanda1999',
     twitter_username: '#',
   },
+  {
+    name: 'Mayank Mani',
+    country: 'India',
+    role: 'ML engineer',
+    tech_stack: ['Python', 'Scikit', 'C++'],
+    github_username: 'MayankMani00',
+    twitter_username: '#',
+  },
 ];
