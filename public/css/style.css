@@ -17,6 +17,10 @@ ul {
   padding: 0;
 }
 
+p {
+  margin: 0px;
+}
+
 #hero-page {
   font-family: 'Krub', sans-serif;
   text-align: center;
@@ -40,7 +44,8 @@ ul {
   font-family: 'Fira Sans';
 }
 
-.cards > .info_card {
+.info_card {
+  color: var(--darkgrey);
   width: 20vw;
   float: left;
   font-weight: 600;
@@ -51,72 +56,66 @@ ul {
   display: inherit;
 }
 
-.cards > .info_card > li > img {
+.info_card img {
   width: 100%;
   height: 12vw;
   object-fit: cover;
-  margin-bottom: 1em;
-}
-
-.description {
-  float: left;
-  width: 60%;
-  height: 7vw;
+  object-position: 100% 0%;
+  border-radius: 0.6em;
 }
 
 .info_card h4 {
-  color: var(--darkgrey);
-  font-size: 2.5em;
-  font-weight: 600;
-  margin: 0px;
-  width: 100%;
+  font-size: 2.5vw;
+  font-weight: bold;
+  margin-bottom: 0.4vw;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-height: 5.5vw;
-  margin-bottom: 0.3em;
 }
 
-.info_card p {
-  color: var(--darkgrey);
-  font-size: 1.2em;
+.info_card p.role {
+  font-size: 1vw;
   font-weight: 600;
-  line-height: 1;
-  margin: 0px;
+  display: inline;
 }
 
 .info_card p.country {
-  font-size: 1em;
-  background-color: var(--darkgreen);
-  border: solid var(--darkgreen);
+  font-size: 1vw;
+  background-color: var(--lightgrey);
+  border: solid var(--lightgrey);
   border-radius: 0.4em;
-  display: inline-block;
-  padding: 0em .5em;
-  margin-top: 0.5em;
+  padding: 0em 0.5em;
+  display: inline;
+  float: right;
+}
+
+.info_card p.country > i {
+  vertical-align: middle;
+}
+
+.info_card li {
+  overflow: hidden;
 }
 
 .tech-stack {
-  float: right;
-  width: 40%;
+  margin-top: 0.7vw;
 }
 
-.tech-stack > ol {
+.tech-stack > ul {
   list-style-type: none;
-  text-align: right;
   white-space: nowrap;
   overflow: hidden;
-  width: 100%;
-  padding-left: 1em;
 }
 
 .tech-stack li {
-  font-size: .8em;
+  font-size: 1vw;
   background-color: var(--lightgrey);
   border: solid var(--lightgrey);
-  border-radius: 0.8em;
-  margin-bottom: 0.5em;
-  padding-right: 1em;
+  border-radius: 0.4em;
+  margin-top: 0.5vw;
   text-overflow: ellipsis;
   overflow: inherit;
+  padding: 0vw 1vw;
 }
 
 .info_card > a {
@@ -124,22 +123,22 @@ ul {
   margin: 10px;
 }
 
-.tech-stack > p {
-  margin: 0;
-}
-
 .social-row {
-  align-self: end;
+  margin-top: -2vw;
+  margin-bottom: 2.7vw;
 }
 
 .social-media {
   background-color: var(--lightgreen);
   border: solid var(--lightgreen);
-  border-radius: 0.8em;
+  border-radius: 0.6em;
   margin: 0;
   display: inline-flex;
   align-items: center;
-  margin-top: 0.5em;
+  width: 2vw;
+  height: 2vw;
+  padding: 0vw 1.5vw;
+  justify-content: center;
 }
 
 .social-media:hover {
@@ -152,9 +151,6 @@ ul {
 }
 
 .social-media > i {
-  font-size: 23px;
+  font-size: 1.5vw;
   color: black;
-  margin: 0 auto;
-  padding: 3px;
-  vertical-align: middle;
 }

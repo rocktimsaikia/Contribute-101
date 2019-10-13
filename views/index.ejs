@@ -72,16 +72,29 @@
         <div class="info_card">
           <li>
             <img src="https://avatars.githubusercontent.com/<%=obj.github_username%>" alt="<%=obj.name%>" onerror="this.src='https://avatars.githubusercontent.com/404'">
+
+            <div class="social-row">
+              <a href="https://github.com/<%=obj.github_username%>" class="social-media col" target="_blank" style="float: left">
+                <i class="fab fa-github"></i>
+              </a>
+            
+              <a href="https://twitter.com/<%=obj.twitter_username%>" class="social-media col" target="_blank" style="float: right">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+
+            <div>
             <h4><%=obj.name%></h4>
-            <div class="description">
-              <% if (obj.role){ %>
-              <p><%=obj.role%></p>
-              <% } %>
-              <p class="country"><i class="fas fa-globe-americas"></i> <%=obj.country%></p>
+            <% if (obj.role){ %>
+            <p class="role"><%=obj.role%></p>
+            <% } else { %>
+            <p class="role">To be filled</p>
+            <% } %>
+            <p class="country"><i class="fas fa-globe-americas"></i> <%=obj.country%></p>
             </div>
 
             <div class="tech-stack">
-              <ol>
+              <ul>
                 <% if (obj.tech_stack[0]){ %>
                 <li><%= obj.tech_stack[0] %></li>
                 <% } %>
@@ -91,19 +104,9 @@
                 <% if (obj.tech_stack[2]){ %>
                 <li><%= obj.tech_stack[2] %></li>
                 <% } %>
-              </ol>
+              </ul>
             </div>
           </li>
-
-          <div class="social-row">
-            <a href="https://github.com/<%=obj.github_username%>" class="social-media col" target="_blank">
-              <i class="fab fa-github-square"></i>
-            </a>
-          
-            <a href="https://twitter.com/<%=obj.twitter_username%>" class="social-media col" target="_blank">
-              <i class="fab fa-twitter-square"></i>
-            </a>
-          </div>
 
         </div>
         <%}) %>
