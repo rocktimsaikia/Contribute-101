@@ -14,6 +14,22 @@ Currently we are following a set of style rules and a basic test suite for maint
 
 ## Steps :
 
+### Setting up the local environment
+
+```
+npm install
+
+```
+
+1. To install all the needed dependencies.
+
+```
+npm start
+```
+
+2. To start the development server . And thats it.It should be up and running in `localhost:3000`.
+3. We are using reload module so any change you make will be immediately shown in the browser.
+
 ### Linting -
 
 - For checking errors :
