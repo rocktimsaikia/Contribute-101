@@ -1,8 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Krub|Open+Sans|Raleway");
+@import url('https://fonts.googleapis.com/css?family=Krub|Open+Sans|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+:root {
+  --lightgreen: #68e074;
+  --darkgrey: #333333;
+  --lightgrey: #c4c4c4;
+  --darkgreen: #4ecf8a;
+}
 
 body {
   background: #fff;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -10,98 +18,143 @@ ul {
 }
 
 #hero-page {
-  font-family: "Krub", sans-serif;
+  font-family: 'Krub', sans-serif;
   text-align: center;
-  background: rgb(92, 67, 67);
+  background: var(--darkgrey);
   color: #fff;
-  border: 2px solid #fff;
   padding: 2rem;
 }
+
+.cards-wrapper {
+  display: table;
+  margin: auto;
+  margin-top: 3em;
+}
+
 .cards {
   position: relative;
   display: grid;
   list-style: none;
-  grid-gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  font-family: "Raleway";
+  grid-gap: 3vw;
+  grid-template-columns: repeat(4, 20vw);
+  font-family: 'Fira Sans';
 }
-.cards > .info_card > li > img {
-  margin: 7px 0 4px 40px;
-}
-.cards > .info_card > li > h4 {
-  color: #333;
-  padding-left: 40px;
-  margin-bottom: 3px;
-  font-weight: 600;
-  line-height: 1;
-}
-.cards > .info_card > li > p {
-  color: rgb(161, 161, 161);
-  padding-left: 40px;
-  margin: 0;
-  font-weight: 600;
-}
-.cards > .info_card > li > .tech-stack {
-  margin: 10px 0 0 60px;
-}
-.cards > .info_card > li > .tech-stack > ol {
-  margin: 0 18px 20px 0;
-}
+
 .cards > .info_card {
+  width: 20vw;
+  float: left;
   font-weight: 600;
-  padding: 0 20px;
   background: #fff;
   color: #333;
-  box-shadow: 0 16px 48px #e3e7eb;
-  border-top: 6px solid #5aff62;
-  border-radius: 10px;
+  box-shadow: 6px 6px 20px -5px rgba(51, 51, 51, 0.6);
+  padding: 1.3vw;
+  display: inherit;
 }
-.info_card:hover{
-  box-shadow:0 10px 30px #5aff62;
+
+.cards > .info_card > li > img {
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
+  margin-bottom: 1em;
 }
-.info_card > li {
-  margin-top: 20px;
+
+.description {
+  float: left;
+  width: 60%;
+  height: 7vw;
 }
+
+.info_card h4 {
+  color: var(--darkgrey);
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 0px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 5.5vw;
+  margin-bottom: 0.3em;
+}
+
+.info_card p {
+  color: var(--darkgrey);
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0px;
+}
+
+.info_card p.country {
+  font-size: 1em;
+  background-color: var(--darkgreen);
+  border: solid var(--darkgreen);
+  border-radius: 0.4em;
+  display: inline-block;
+  padding: 0em .5em;
+  margin-top: 0.5em;
+}
+
+.tech-stack {
+  float: right;
+  width: 40%;
+}
+
+.tech-stack > ol {
+  list-style-type: none;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  padding-left: 1em;
+}
+
+.tech-stack li {
+  font-size: .8em;
+  background-color: var(--lightgrey);
+  border: solid var(--lightgrey);
+  border-radius: 0.8em;
+  margin-bottom: 0.5em;
+  padding-right: 1em;
+  text-overflow: ellipsis;
+  overflow: inherit;
+}
+
 .info_card > a {
   font-size: 30px;
   margin: 10px;
 }
+
 .tech-stack > p {
   margin: 0;
 }
-.tech-stack > ol {
-  margin-left: 0;
+
+.social-row {
+  align-self: end;
 }
+
 .social-media {
-  background-color: #f66767;
-  padding: 6px;
+  background-color: var(--lightgreen);
+  border: solid var(--lightgreen);
+  border-radius: 0.8em;
   margin: 0;
   display: inline-flex;
   align-items: center;
-  line-height: 17px;
+  margin-top: 0.5em;
 }
+
 .social-media:hover {
-  background-color: #d35656;
+  background-color: var(--darkgreen);
+  border: solid var(--darkgreen);
 }
-.social-media > a:hover {
+
+.social-row > a:hover {
   text-decoration: none;
 }
+
 .social-media > i {
   font-size: 23px;
   color: black;
   margin: 0 auto;
   padding: 3px;
   vertical-align: middle;
-}
-
-@media only screen and (max-width: 1040px) {
-  .cards {
-    grid-template-columns: 2fr 50%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
 }
