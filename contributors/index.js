@@ -437,16 +437,36 @@ module.exports.list = [
     github_username: 'bojack-horseman',
     twitter_username: 'big_daddy2802',
   },
-  /* USE THIS TEMPLATE
-
   {
-    name: "your name",
-    country: "your country",
-    role: "what type of developer you are",
-    tech_stack: ["", "", ""],
-    github_username: "",
-    twitter_username: ""
+    name: 'Patrick',
+    country: 'USA',
+    role: 'student',
+    tech_stack: ['Java', 'Python'],
+    github_username: 'cspatrick',
+    twitter_username: '',
   },
-
-  */
+  {
+    name: 'Mudit Nagar',
+    country: 'India',
+    role: 'UI Developer',
+    tech_stack: ['HTML', 'CSS', 'Javascript'],
+    github_username: 'mdtngr',
+    twitter_username: '_',
+  },
+  {
+    name: 'Tedo Haris Chandra',
+    country: 'Indonesia',
+    role: 'Web Developer',
+    tech_stack: ['HTML/CSS', 'Laravel', 'Javascript'],
+    github_username: 'TedoHarisC',
+    twitter_username: 'tedo_hc29',
+  },
+  {
+    name: 'Sahil Manchanda',
+    country: 'India',
+    role: 'Android Developer',
+    tech_stack: ['Firebase', 'java', 'c++'],
+    github_username: 'sahilmanchanda1999',
+    twitter_username: '#',
+  },
 ];
