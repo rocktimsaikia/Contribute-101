@@ -338,6 +338,14 @@ module.exports.list = [
     github_username: 'camilocaquimbo',
     twitter_username: 'ccaquimbo',
   },
+  {
+    name: 'Phong Duong',
+    country: 'Viet Nam',
+    role: 'Fullstack Developer',
+    tech_stack: ['NodeJS', 'VueJS', 'ReactJS', 'Firebase'],
+    github_username: 'phongduong',
+    twitter_username: 'phong_lh_duong',
+  },
 
   /* USE THIS TEMPLATE
 
