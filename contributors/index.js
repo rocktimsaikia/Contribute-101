@@ -267,21 +267,21 @@ module.exports.list = [
     twitter_username: 'shyam_uk',
   },
   {
-    name: "Riya",
-    country: "India",
-    role: "To be filled",
-    tech_stack: ["MongoDB", "Express", "Node"],
-    github_username: "Icor101",
-    twitter_username: "#"
+    name: 'Riya',
+    country: 'India',
+    role: 'To be filled',
+    tech_stack: ['MongoDB', 'Express', 'Node'],
+    github_username: 'Icor101',
+    twitter_username: '#',
   },
-  
+
   {
-    name: "Vishal",
-    country: "India",
-    role: "To be filled",
-    tech_stack: ["Machine learning", "Python", "Java"],
-    github_username: "Vishalyadav0804",
-    twitter_username: "#"
+    name: 'Vishal',
+    country: 'India',
+    role: 'To be filled',
+    tech_stack: ['Machine learning', 'Python', 'Java'],
+    github_username: 'Vishalyadav0804',
+    twitter_username: '#',
   },
   {
     name: 'M. Oliveira',
