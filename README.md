@@ -20,6 +20,8 @@ Contribution to Open Source Projects is a great way to enhanching your coding sk
 So in this project you are going to create a bootstrap card of yourself by filling up some given things which we will talk later.
 But for now lets get straight into work.
 
+> #### contributors that want to work on additional feature on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
+
 ### Prerequisite :
 
 - install [nodejs](https://nodejs.org) on your local machine globally.
