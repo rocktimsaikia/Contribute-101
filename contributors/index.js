@@ -300,7 +300,13 @@ module.exports.list = [
     github_username: 'Icor101',
     twitter_username: '#',
   },
-
+  {
+    name: 'Samuel Owad',
+    country: 'Nigeria',
+    tech_stack: ['Js', 'React', 'Node'],
+    github_username: 'samuelowad',
+    twitter_username: '',
+  },
   {
     name: 'Vishal',
     country: 'India',
