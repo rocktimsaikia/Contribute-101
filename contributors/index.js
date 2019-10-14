@@ -237,6 +237,14 @@ module.exports.list = [
     twitter_username: 'adityakumar2809',
   },
   {
+    name: 'Sibin',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Android', 'Java', 'Javascript', 'NodeJs'],
+    github_username: 'sibinjoseph111',
+    twitter_username: 'sibin__',
+  },
+  {
     name: 'Mikalai Sokarau',
     country: 'Belarus',
     role: 'To be filled',
