@@ -74,8 +74,13 @@ p {
 .info_card p.role {
   font-size: 1vw;
   font-weight: 600;
-  display: inline;
+  display: inline-block;
   padding-left: 0.5vw;
+  max-width: 10vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin: 0px;
 }
 
 .info_card p.country {
