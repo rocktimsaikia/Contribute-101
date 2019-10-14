@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Shubham',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Node', 'JavaScript', 'Express'],
+    github_username: 'shubham9019',
+    twitter_username: '#',
+  },
+  {
     name: 'Jagreet',
     country: 'India',
     role: 'Undergraduate',
@@ -324,7 +332,13 @@ module.exports.list = [
     github_username: 'Icor101',
     twitter_username: '#',
   },
-
+  {
+    name: 'Samuel Owad',
+    country: 'Nigeria',
+    tech_stack: ['Js', 'React', 'Node'],
+    github_username: 'samuelowad',
+    twitter_username: '',
+  },
   {
     name: 'Vishal',
     country: 'India',
@@ -493,12 +507,28 @@ module.exports.list = [
     github_username: 'sahilmanchanda1999',
     twitter_username: '#',
   },
-    {
+  {
     name: 'Abhishek',
     country: 'India',
     role: 'Software/Firmware Engineer',
     tech_stack: ['C', 'Java', 'Python'],
     github_username: 'unkemptArc99',
     twitter_username: 'unkemptArc99',
+  },
+  {
+    name: 'Mayank Mani',
+    country: 'India',
+    role: 'ML engineer',
+    tech_stack: ['Python', 'Scikit', 'C++'],
+    github_username: 'MayankMani00',
+    twitter_username: '#',
+  },
+  {
+    name: 'Avinish Kumar',
+    country: 'India',
+    role: 'Full Stack Developer',
+    tech_stack: ['Node.js', 'C++', 'Pyhton'],
+    github_username: 'avi-01',
+    twitter_username: '#',
   },
 ];
