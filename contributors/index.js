@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Mayank',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Android', 'Java', 'Javascript'],
+    github_username: 'mayankkhattar007',
+    twitter_username: '#',
+  },
+  {
     name: 'Divanshi',
     country: 'India',
     role: 'Undergraduate',
