@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Shubham',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Node', 'JavaScript', 'Express'],
+    github_username: 'shubham9019',
+    twitter_username: '#',
+  },
+  {
     name: 'Urmilla',
     country: 'India',
     role: 'Undergraduate',
