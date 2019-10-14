@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Jagreet',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Java', 'Android'],
+    github_username: 'jagreetdg',
+    twitter_username: '#',
+  },
+  {
     name: 'Urmilla',
     country: 'India',
     role: 'Undergraduate',
