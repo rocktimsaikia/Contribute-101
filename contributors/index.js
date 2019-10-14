@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Jagreet',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Java', 'Android'],
+    github_username: 'jagreetdg',
+    twitter_username: '#',
+  },
+  {
     name: 'Urmilla',
     country: 'India',
     role: 'Undergraduate',
@@ -16,11 +24,27 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Mayank',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Android', 'Java', 'Javascript'],
+    github_username: 'mayankkhattar007',
+    twitter_username: '#',
+  },
+  {
     name: 'Divanshi',
     country: 'India',
     role: 'Undergraduate',
     tech_stack: ['Node', 'JavaScript', 'Express'],
     github_username: 'divanshi15',
+    twitter_username: '#',
+  },
+  {
+    name: 'Naivedh',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Python', 'JavaScript', 'Java'],
+    github_username: 'Naivedh',
     twitter_username: '#',
   },
   {
