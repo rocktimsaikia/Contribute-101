@@ -547,4 +547,12 @@ module.exports.list = [
     github_username: 'Alfons0329',
     twitter_username: '#',
   },
+    {
+    name: 'Ahmed',
+    country: 'Egypt',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Python'],
+    github_username: 'ahmibr',
+    twitter_username: '#',
+  },
 ];
