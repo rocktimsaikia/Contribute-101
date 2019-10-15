@@ -540,6 +540,14 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Subham Agrawal',
+    country: 'India',
+    role: 'Software Engineer',
+    tech_stack: ['Node.js', 'C++', 'C', 'Javascript'],
+    github_username: 'subhamagrawal7',
+    twitter_username: '#Subham_Agrawal4',
+  },
+    {
     name: 'Alfons Hwu',
     country: 'Taiwan',
     role: 'Student',
