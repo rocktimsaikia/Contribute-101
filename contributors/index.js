@@ -547,7 +547,7 @@ module.exports.list = [
     github_username: 'subhamagrawal7',
     twitter_username: '#Subham_Agrawal4',
   },
-    {
+  {
     name: 'Alfons Hwu',
     country: 'Taiwan',
     role: 'Student',
@@ -555,7 +555,7 @@ module.exports.list = [
     github_username: 'Alfons0329',
     twitter_username: '#',
   },
-    {
+  {
     name: 'Ahmed',
     country: 'Egypt',
     role: 'Undergraduate',
