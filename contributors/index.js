@@ -570,5 +570,5 @@ module.exports.list = [
     tech_stack: ['HTML', 'Javascript', 'React'],
     github_username: 'ShobaS',
     twitter_username: '#',
-  }
+  },
 ];
