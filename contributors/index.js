@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Matheus Del Claro',
+    country: 'Brazil',
+    role: 'C.S. Graduated, Full-Stack developer',
+    tech_stack: ['Node.js', 'React', 'React Native'],
+    github_username: 'mdelclaro',
+    twitter_username: 'mdelclaro',
+  },
+  {
     name: 'Shubham',
     country: 'India',
     role: 'Undergraduate',
