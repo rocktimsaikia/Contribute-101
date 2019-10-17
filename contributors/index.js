@@ -569,6 +569,14 @@ module.exports.list = [
     role: 'UI Engineer',
     tech_stack: ['HTML', 'Javascript', 'React'],
     github_username: 'ShobaS',
+    name: 'Jui',
+    twitter_username: '#',
+  },
+  {
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Python'],
+    github_username: 'shahjui2000',
     twitter_username: '#',
   },
 ];
