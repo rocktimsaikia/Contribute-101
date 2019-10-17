@@ -573,10 +573,19 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Jui',
     country: 'India',
     role: 'Undergraduate',
     tech_stack: ['C++', 'Python'],
     github_username: 'shahjui2000',
     twitter_username: '#',
+  },
+  {
+    name: 'Tikam Singh Alma',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Python', 'Go'],
+    github_username: 'Tikam02',
+    twitter_username: 'n3ur0mancer',
   },
 ];
