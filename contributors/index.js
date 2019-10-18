@@ -63,7 +63,7 @@ module.exports.list = [
     github_username: 'jiteshkumarr',
     twitter_username: '#',
   },
-//t-shirt
+  //t-shirt
   {
     name: 'Desire',
     country: 'Zambia',
@@ -641,6 +641,14 @@ module.exports.list = [
     role: 'Undergraduate',
     tech_stack: ['C++', 'C'],
     github_username: 'parasmannan',
+    twitter_username: '#',
+  },
+  {
+    name: 'Arun Kumar',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['C++', 'Python', 'Javascript'],
+    github_username: 'Arun179',
     twitter_username: '#',
   },
 ];
