@@ -63,7 +63,6 @@ module.exports.list = [
     github_username: 'jiteshkumarr',
     twitter_username: '#',
   },
-  //t-shirt
   {
     name: 'Desire',
     country: 'Zambia',
