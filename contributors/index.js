@@ -650,4 +650,12 @@ module.exports.list = [
     github_username: 'Arun179',
     twitter_username: '#',
   },
+  {
+    name: 'Edwin Harly',
+    country: 'Indonesia',
+    role: 'Full-Stack developer',
+    tech_stack: ['Node.js', 'React', 'Vue', 'Mule ESB'],
+    github_username: 'edwinharly',
+    twitter_username: '#',
+  },
 ];
