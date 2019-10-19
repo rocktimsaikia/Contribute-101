@@ -571,6 +571,14 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Prakhar Sapre',
+    country: 'USA',
+    role: 'Professional',
+    tech_stack: ['Java'],
+    github_username: 'prakhar10',
+    twitter_username: '#',
+  },
+  {
     name: 'Ahmed',
     country: 'Egypt',
     role: 'Undergraduate',
