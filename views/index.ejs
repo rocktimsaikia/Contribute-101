@@ -103,7 +103,7 @@
 
             <div class="tech-stack">
               <ul>
-                <% obj.tech_stack.map(i=>{%>
+                <% obj.tech_stack.slice(0,3).map(i=>{%>
                 <li><%= i %></li>
                 <%})%>
               </ul>
