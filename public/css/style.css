@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #fff;
+  background: #f7fafc;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -48,7 +48,9 @@ p {
   font-weight: 600;
   background: #fff;
   color: #333;
-  box-shadow: 6px 6px 20px -5px rgba(51, 51, 51, 0.6);
+  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
   padding: 1.3vw;
   display: inherit;
 }
