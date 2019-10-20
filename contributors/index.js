@@ -67,9 +67,9 @@ module.exports.list = [
     name: 'Edvin',
     country: 'Bosnia and Herzegovina',
     role: 'Undergraduate',
-    tech_stack: ['React','Node','Express'],
+    tech_stack: ['React', 'Node', 'Express'],
     github_username: 'PortaX',
-    twitter_username: '# '
+    twitter_username: '# ',
   },
   {
     name: 'Jitesh',
@@ -712,6 +712,14 @@ module.exports.list = [
     role: 'To be filled',
     tech_stack: ['Java', 'JavaScript', 'SQL'],
     github_username: 'naorinn',
+    twitter_username: '#',
+  },
+  {
+    name: 'dfarley1',
+    country: 'USA',
+    role: 'Software Developer',
+    tech_stack: ['C', 'C++', 'Python'],
+    github_username: 'dfarley1',
     twitter_username: '#',
   },
 ];
