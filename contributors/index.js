@@ -698,17 +698,12 @@ module.exports.list = [
     github_username: 'Quanta770',
     twitter_username: '#',
   },
-
-
   {
-    name: 'Rizki Mufti Ilmawan',
-    country: 'Indonesia',
-    role: 'Student',
-    tech_stack: ['Javascript', 'nodeJS','ReactJS','PHP'],
-    github_username: 'rizkimufti',
+    name: 'Nori Khan',
+    country: 'Canada',
+    role: 'To be filled',
+    tech_stack: ['Java', 'JavaScript', 'SQL'],
+    github_username: 'naorinn',
     twitter_username: '#',
   },
-
-
-
 ];
