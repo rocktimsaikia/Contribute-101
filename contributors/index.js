@@ -776,7 +776,7 @@ module.exports.list = [
   },
   {
     name: 'Nicholas Huber',
-    country: 'United States of America',
+    country: 'USA',
     role: 'Full-Stack developer',
     tech_stack: ['Node.js', 'React', 'React Native'],
     github_username: 'nicholashuber',
