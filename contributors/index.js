@@ -782,4 +782,12 @@ module.exports.list = [
     github_username: 'nicholashuber',
     twitter_username: 'imnickhuber',
   },
+  {
+    name: 'Jose Chavez',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['JS', 'Java', 'HTML5', 'CSS3', 'PHP'],
+    github_username: 'joschavz',
+    twitter_username: 'justchavz',
+  }
 ];
