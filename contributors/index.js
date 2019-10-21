@@ -738,4 +738,11 @@ module.exports.list = [
     github_username: 'priteshtripathi7',
     twitter_username: '#',
   },
+    name: 'Nicholas Huber',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['Node js', 'Java', 'Javascript'],
+    github_username: 'nicholashuber',
+    twitter_username: '#',
+  },
 ];
