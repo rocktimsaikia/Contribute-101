@@ -80,6 +80,14 @@ module.exports.list = [
     twitter_username: '# ',
   },
   {
+    name: 'Mayank Kumar',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['JavaScript', 'Express'],
+    github_username: 'mayank518',
+    twitter_username: '#',
+  },
+  {
     name: 'Jitesh',
     country: 'India',
     role: 'Undergraduate',
