@@ -364,6 +364,14 @@ module.exports.list = [
     twitter_username: 'shyam_uk',
   },
   {
+    name: 'Lun Zhang',
+    country: 'United States',
+    role: 'Frontend Engineer',
+    tech_stack: ['Javascript', 'Node', 'react'],
+    github_username: 'lunzhang',
+    twitter_username: '#',
+  },
+  {
     name: 'Riya',
     country: 'India',
     role: 'To be filled',
