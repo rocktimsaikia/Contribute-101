@@ -1,3 +1,16 @@
 {
-  "extends": ["wesbos"]
+  "extends": "airbnb-base",
+  "rules": {
+    "comma-dangle": ["error", "only-multiline"],
+    "implicit-arrow-linebreak": "off",
+    "linebreak-style": "off",
+    "arrow-parens": "off",
+    "no-console": "off",
+    "func-names": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  }
 }

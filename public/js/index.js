@@ -3,7 +3,7 @@ const countDownDate = new Date('Oct 31, 2019 12:00:00').getTime();
 const numberFormat = n => `0${n}`.slice(-2);
 
 // Update the count down every 1 second
-const x = setInterval(function() {
+const x = setInterval(() => {
   const now = new Date().getTime();
 
   const distance = countDownDate - now;
