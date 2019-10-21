@@ -43,7 +43,7 @@ module.exports.list = [
     name: 'Urmilla',
     country: 'India',
     role: 'Undergraduate',
-    tech_stack: ['Flutter', 'JavaScript', 'Express'],
+    tech_stack: ['rently the file structure would look like this.Flutter', 'JavaScript', 'Express'],
     github_username: 'urmilla20',
     twitter_username: '#',
   },
@@ -505,6 +505,14 @@ module.exports.list = [
     tech_stack: ['java', 'c++', 'html/css', 'opencv'],
     github_username: 'vbansal20',
     twitter_username: '#',
+  },
+  {
+    name: 'Mayank',
+    country: 'India',
+    role: 'Android Developer',
+    tech_stack: ['Python', 'Java'],
+    github_username: 'mayank97',
+    twitter_username: 'mayank_mk18',
   },
   {
     name: 'Lilian Ferreira',
