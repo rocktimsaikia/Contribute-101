@@ -43,7 +43,11 @@ module.exports.list = [
     name: 'Urmilla',
     country: 'India',
     role: 'Undergraduate',
-    tech_stack: ['rently the file structure would look like this.Flutter', 'JavaScript', 'Express'],
+    tech_stack: [
+      'rently the file structure would look like this.Flutter',
+      'JavaScript',
+      'Express',
+    ],
     github_username: 'urmilla20',
     twitter_username: '#',
   },
@@ -769,5 +773,13 @@ module.exports.list = [
     tech_stack: ['Javascript', 'Nodejs', 'React'],
     github_username: 'damdauvaotran',
     twitter_username: '#',
+  },
+  {
+    name: 'Nicholas Huber',
+    country: 'United States of America',
+    role: 'Full-Stack developer',
+    tech_stack: ['Node.js', 'React', 'React Native'],
+    github_username: 'nicholashuber',
+    twitter_username: 'imnickhuber',
   },
 ];
