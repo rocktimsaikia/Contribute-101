@@ -1,5 +1,7 @@
 const countDownDate = new Date('Oct 31, 2019 12:00:00').getTime();
 
+const numberFormat = n => `0${n}`.slice(-2);
+
 // Update the count down every 1 second
 const x = setInterval(function() {
   const now = new Date().getTime();
@@ -13,10 +15,10 @@ const x = setInterval(function() {
   const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById('days').innerHTML = days;
-  document.getElementById('hours').innerHTML = hours;
-  document.getElementById('min').innerHTML = minutes;
-  document.getElementById('sec').innerHTML = seconds;
+  document.getElementById('days').innerHTML = numberFormat(days);
+  document.getElementById('hours').innerHTML = numberFormat(hours);
+  document.getElementById('min').innerHTML = numberFormat(minutes);
+  document.getElementById('sec').innerHTML = numberFormat(seconds);
 
   if (distance < 0) {
     clearInterval(x);
