@@ -783,11 +783,11 @@ module.exports.list = [
     twitter_username: 'imnickhuber',
   },
   {
-    name: 'Jose Chavez',
-    country: 'USA',
+    name: 'Chavez',
+    country: 'Student',
     role: 'Student',
-    tech_stack: ['JS', 'Java', 'HTML5', 'CSS3', 'PHP'],
+    tech_stack: ['Web Development', 'Java', 'JavaScript', 'PHP'],
     github_username: 'joschavz',
-    twitter_username: 'justchavz',
+    twitter_username: '#',
   }
 ];
