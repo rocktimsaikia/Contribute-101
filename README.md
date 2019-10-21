@@ -5,9 +5,9 @@
 <img src="https://travis-ci.org/RocktimSaikia/Contribute-101.svg?branch=master" />
 </p>
 
-> ### ✨ Contribute and get a step forward in completing the Hacktoberfest 2019.
->
-> ### ✨ Portuguese version of the [README.md](https://github.com/RocktimSaikia/Contribute-101/blob/master/README-pt-br.md)
+> ### ✨ Contribute and get a step forwards completing the Hacktoberfest 2019.
+
+> ### ✨ Contributors that want to work on additional feature on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
 
 ![alt text](screenshots/new_website.jpg);
 
@@ -16,8 +16,6 @@
 ### Introduction:
 
 Contribution to Open Source Projects is a great way to enhanching your coding skills and along with expanding your knowledge on the new technologies. But top of that contributing to Open Source Projects is FUN.The joy of the first time when your pull request gets accepted is amazing. Which you are going to find today by contributing to this project.
-
-> #### contributors that want to work on additional feature on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
 
 ### Prerequisite :
 
