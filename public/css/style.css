@@ -190,3 +190,38 @@ p {
   font-size: 1.5vw;
   color: black;
 }
+
+/* div with the button to scroll down to the bottom of the page */
+#scroll_down {
+  display: flex;
+  justify-content: center;
+}
+
+#scroll_down_button {
+  border: none;
+  background: #fff;
+  color: #4f4f4f;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* div with the button to scroll up to the top of the page */
+#scroll_up {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+#scroll_up_button {
+  border: none;
+  background: #fff;
+  color: #4f4f4f;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
