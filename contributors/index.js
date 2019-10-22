@@ -814,12 +814,12 @@ module.exports.list = [
     github_username: 'FelipeRCMarques',
     twitter_username: '#',
   },
-   {
+  {
     name: 'Michael Ngiri',
     country: 'Nigeria',
     role: 'Fullstack Developer',
     tech_stack: ['Node.Js', 'React', 'Php'],
     github_username: 'MichaelNgiri',
     twitter_username: 'MichaelNgiri',
-  },
+  }
 ];
