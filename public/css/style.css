@@ -191,37 +191,24 @@ p {
   color: black;
 }
 
-/* div with the button to scroll down to the bottom of the page */
-#scroll_down {
+/* divs with the buttons to scroll up and down */
+#scroll_down, #scroll_up {
   display: flex;
   justify-content: center;
 }
 
-#scroll_down_button {
-  border: none;
-  background: #fff;
-  color: #4f4f4f;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-}
-
-/* div with the button to scroll up to the top of the page */
 #scroll_up {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 25px;
+  margin: 25px;
 }
 
-#scroll_up_button {
+/* scroll buttons */
+.scroll_btn {
   border: none;
-  background: #fff;
-  color: #4f4f4f;
+  background: #15ff7d;
+  color: #3a3a3a;
   font-weight: 600;
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 1px 10px -12px rgba(0, 0, 0, 0.4);
 }
