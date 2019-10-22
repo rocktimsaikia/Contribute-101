@@ -806,4 +806,12 @@ module.exports.list = [
     github_username: 'noelierx',
     twitter_username: '#',
   },
+  {
+    name: 'Felipe Marques',
+    country: 'Brazil',
+    role: 'Undergraduate',
+    tech_stack: ['Python', 'JavaScript', 'Java'],
+    github_username: 'FelipeRCMarques',
+    twitter_username: '#',
+  },
 ];
