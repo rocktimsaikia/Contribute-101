@@ -862,4 +862,12 @@ module.exports.list = [
     github_username: 'siwaniagrawal',
     twitter_username: 'siwani_agrawal',
   },
+  {
+    name: 'Ana Paula Lemos',
+    country: 'Brazil',
+    role: 'Undergraduate',
+    tech_stack: ['JavaScript', 'Typescript'],
+    github_username: 'anapaulalemos',
+    twitter_username: '-'
+  },
 ];
