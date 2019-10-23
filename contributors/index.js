@@ -841,5 +841,13 @@ module.exports.list = [
     tech_stack: ['Python', 'C', 'Java'],
     github_username: 'yashgarg330',
     twitter_username: '#',
-  }
+  },
+  {
+    name: 'Nic',
+    country: 'UK',
+    role: 'Student',
+    tech_stack: ['Python', 'JavaScript', 'Web Development'],
+    github_username: 'Frozenaught',
+    twitter_username: '#',
+  },
 ];
