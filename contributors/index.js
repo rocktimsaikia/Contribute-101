@@ -384,6 +384,18 @@ module.exports.list = [
     twitter_username: '#',
   },
   {
+    name: 'Pedro Veríssimo',
+    country: 'Brasil',
+    role: 'Undergraduate, Full-Stack Dev',
+    tech_stack: [
+      'HTML5, CSS3, JavaScript ',
+      'C++/C#',
+      'Python <3',
+    ],
+    github_username: 'pbv2',
+    twitter_username: 'pdrvrssm',
+  },
+  {
     name: 'Shyam Unnikrishnan',
     country: 'India',
     role: 'Full Stack Developer',
