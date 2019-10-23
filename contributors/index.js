@@ -387,11 +387,7 @@ module.exports.list = [
     name: 'Pedro Veríssimo',
     country: 'Brasil',
     role: 'Undergraduate, Full-Stack Dev',
-    tech_stack: [
-      'HTML5, CSS3, JavaScript ',
-      'C++/C#',
-      'Python <3',
-    ],
+    tech_stack: ['HTML5, CSS3, JavaScript ', 'C++/C#', 'Python <3'],
     github_username: 'pbv2',
     twitter_username: 'pdrvrssm',
   },
@@ -849,5 +845,13 @@ module.exports.list = [
     tech_stack: ['Python', 'JavaScript', 'Web Development'],
     github_username: 'Frozenaught',
     twitter_username: '#',
+  },
+  {
+    name: 'Koushik Chowdhury',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Java', 'C++', 'Python'],
+    github_username: 'koushikchowdhury2016',
+    twitter_username: 'koushik2016',
   },
 ];
