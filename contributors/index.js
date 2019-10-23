@@ -814,4 +814,12 @@ module.exports.list = [
     github_username: 'FelipeRCMarques',
     twitter_username: '#',
   },
+  {
+    name: 'Siwani Agrawal',
+    country: 'India',
+    role: 'Undergraduate',
+    tech_stack: ['Python', 'JavaScript', 'C++'],
+    github_username: 'siwaniagrawal',
+    twitter_username: 'siwani_agrawal',
+  }
 ];
