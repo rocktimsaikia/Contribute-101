@@ -959,4 +959,12 @@ module.exports.list = [
     github_username: 'kaitlynn-steegers',
     twitter_username: '#',
   },
+  {
+    name: 'Lucy Festin',
+    country: 'USA',
+    role: 'Bootcamp Student',
+    tech_stack: ['Java', 'SQL'],
+    github_username: 'nitseF-L',
+    twitter_username: '#',
+  },
 ];
