@@ -868,6 +868,14 @@ module.exports.list = [
     role: 'Undergraduate',
     tech_stack: ['JavaScript', 'Typescript'],
     github_username: 'anapaulalemos',
-    twitter_username: '-'
+    twitter_username: '-',
+  },
+  {
+    name: 'Junior Pereira',
+    country: 'Brazil',
+    role: 'Dev',
+    tech_stack: ['Java', 'JavaScript', 'Python'],
+    github_username: 'pereiraJr',
+    twitter_username: 'N/A',
   },
 ];
