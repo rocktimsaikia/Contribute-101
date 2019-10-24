@@ -975,7 +975,6 @@ module.exports.list = [
     github_username: 'dquach90',
     twitter_username: '#',
   },
-
   {
     name: 'Brian Fishbaugh',
     country: 'USA',
@@ -983,5 +982,13 @@ module.exports.list = [
     tech_stack: ['Java', 'JavaScript', 'SQL', 'HTML'],
     github_username: 'brianfishbaugh',
     twitter_username: '#',
+  },
+  {
+    name: 'Nathan Windisch',
+    country: 'GB',
+    role: 'Cloud Engineer',
+    tech_stack: ['PowerShell', 'Java', 'JavaScript', 'SQL', 'HTML', 'C#'],
+    github_username: 'natfan',
+    twitter_username: '@nathanwindisch',
   },
 ];
