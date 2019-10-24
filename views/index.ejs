@@ -97,7 +97,9 @@
               <p class="role">To be filled</p>
               <% } %>
               <p class="country">
-                <i class="fas fa-globe-americas"></i> <%=obj.country%>
+                <i class="fas fa-globe-americas"></i>
+                <% if(obj.country.toLowerCase()=='united states of america'){%>
+                <%='USA'%> <%}else{%> <%=obj.country%> <%} %>
               </p>
             </div>
 
