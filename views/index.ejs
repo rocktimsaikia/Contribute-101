@@ -64,7 +64,8 @@
         <div class="info_card">
           <li>
             <img
-              src="https://avatars.githubusercontent.com/<%=obj.github_username%>"
+              class="lazy"
+              data-src="https://avatars.githubusercontent.com/<%=obj.github_username%>"
               alt="<%=obj.name%>"
               onerror="this.src='https://avatars.githubusercontent.com/404'"
             />
@@ -120,8 +121,8 @@
     <div id="scroll_up">
       <button class="scroll_btn">Go to top</button>
     </div>
-
     <script src="/js/index.js"></script>
+    <script src="/js/lazy-loading.js"></script>
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <script src="/reload/reload.js"></script>
   </body>

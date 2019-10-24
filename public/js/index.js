@@ -1,7 +1,6 @@
 const countDownDate = new Date('Oct 31, 2019 12:00:00').getTime();
 
 const numberFormat = n => `0${n}`.slice(-2);
-
 // Update the count down every 1 second
 const x = setInterval(() => {
   const now = new Date().getTime();
@@ -32,7 +31,7 @@ const scrollDownButton = document.querySelector('#scroll_down button');
 scrollDownButton.addEventListener('click', () => {
   window.scroll({
     top: document.body.clientHeight,
-    behavior: 'smooth'
+    behavior: 'smooth',
   });
 });
 
@@ -42,6 +41,6 @@ const scrollUpButton = document.querySelector('#scroll_up button');
 scrollUpButton.addEventListener('click', () => {
   window.scroll({
     top: 0,
-    behavior: 'smooth'
+    behavior: 'smooth',
   });
 });
