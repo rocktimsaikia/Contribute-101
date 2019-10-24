@@ -878,4 +878,13 @@ module.exports.list = [
     github_username: 'pereiraJr',
     twitter_username: 'N/A',
   },
+  {
+    name: 'Scout Wallace',
+    country: 'USA',
+    role: 'TechElevator Student',
+    tech_stack: ['Python', 'JavaScript', 'Java', 'MATLAB', 'LaTeX', 'SQL'],
+    github_username: 'scouttww',
+    twitter_username: '-',
+  },
+  
 ];
