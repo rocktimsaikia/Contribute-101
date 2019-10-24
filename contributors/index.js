@@ -902,4 +902,12 @@ module.exports.list = [
     github_username: 'BeccaMorse',
     twitter_username: '#',
   },
+  {
+    name: 'Katie Oh',
+    country: 'USA',
+    role: 'Developer',
+    tech_stack: ['Java', 'JavaScript', 'Vue.js', 'SQL', 'Svelte'],
+    github_username: 'katie-oh',
+    twitter_username: '#',
+  },
 ];
