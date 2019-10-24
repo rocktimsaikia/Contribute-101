@@ -951,4 +951,12 @@ module.exports.list = [
     github_username: 'kathryn-sanders',
     twitter_username: '#',
   },
+  {
+    name: 'Kaitlynn Steegers',
+    country: 'USA',
+    role: 'student',
+    tech_stack: ['Java', 'JavaScript', 'SQL', 'CSS'],
+    github_username: 'kaitlynn-steegers',
+    twitter_username: '#',
+  },
 ];
