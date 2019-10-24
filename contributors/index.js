@@ -967,4 +967,12 @@ module.exports.list = [
     github_username: 'nitseF-L',
     twitter_username: '#',
   },
+  {
+    name: 'David Quach',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['Java', 'PostgreSQL'],
+    github_username: 'dquach90',
+    twitter_username: '#',
+  },
 ];
