@@ -123,7 +123,14 @@ module.exports.list = [
     github_username: 'Desire01',
     twitter_username: 'Chiefov1',
   },
-
+  {
+    name: 'Jamille Bittencourt',
+    country: 'Brazil',
+    role: 'Backend Student and developer',
+    tech_stack: ['C#', 'Java'],
+    github_username: 'millbittencourt',
+    twitter_username: '#millbittencourt',
+  },
   {
     name: 'Supun',
     country: 'Sri Lanka',
