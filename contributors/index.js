@@ -894,4 +894,12 @@ module.exports.list = [
     github_username: 'cbowersock',
     twitter_username: '#',
   },
+  {
+    name: 'Becca Morse',
+    country: 'United States of America',
+    role: 'Java Boot Camp Student',
+    tech_stack: ['Java', 'SQL', 'JavaScript', 'HTML'],
+    github_username: 'BeccaMorse',
+    twitter_username: '#',
+  },
 ];
