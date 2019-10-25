@@ -3,7 +3,7 @@ module.exports.list = [
     name: 'maurizio',
     country: 'Italy',
     role: 'Web Engineer',
-    tech_stack: ['AngularJs', 'React', 'Js Vanilla', 'Node'],
+    tech_stack: ['AngularJs', 'React', 'Javascript', 'Node'],
     github_username: 'ibbatta',
     twitter_username: 'battago',
   },
