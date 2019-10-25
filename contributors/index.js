@@ -32,6 +32,14 @@ module.exports.list = [
     twitter_username: 'mdelclaro',
   },
   {
+    name: 'Joe Ma. Aubrey A. Nequinto',
+    country: 'Philippines',
+    role: 'Backend and mobile developer.',
+    tech_stack: ['Node.js', 'React Native'],
+    github_username: 'JoemaNequinto',
+    twitter_username: 'joemanequinto'
+  },
+  {
     name: 'Yogesh Gupta',
     country: 'India',
     role: 'Undergraduate',
