@@ -984,4 +984,12 @@ module.exports.list = [
     github_username: 'brianfishbaugh',
     twitter_username: '#',
   },
+  {
+    name: 'Juan Sergio Buenviaje',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['JavaScript', 'Python', 'C++', 'Flutter'],
+    github_username: 'lockjio',
+    twitter_username: '#',
+  },
 ];
