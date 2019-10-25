@@ -975,7 +975,14 @@ module.exports.list = [
     github_username: 'dquach90',
     twitter_username: '#',
   },
-
+  {
+    name: 'Bogdan Socaciu',
+    country: 'Romania',
+    role: 'Senior Software Engineer',
+    tech_stack: ['Java', 'Go', 'MongoDB'],
+    github_username: 'scbbestof',
+    twitter_username: '#',
+  },
   {
     name: 'Brian Fishbaugh',
     country: 'USA',
