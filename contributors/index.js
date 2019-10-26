@@ -1094,4 +1094,12 @@ module.exports.list = [
     github_username: 'Abajad',
     twitter_username: '#',
   },
+  {
+    name: 'Sergio Arroyo',
+    country: 'Spain',
+    role: 'DevOps',
+    tech_stack: ['Bash Scripting', 'JavaScript', 'HTML'],
+    github_username: 'sergioarroyop',
+    twitter_username: '#',
+  },
 ];
