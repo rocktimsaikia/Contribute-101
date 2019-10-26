@@ -1054,4 +1054,12 @@ module.exports.list = [
     github_username: 'natfan',
     twitter_username: '@nathanwindisch',
   },
+  {
+    name: 'Juan Sergio Buenviaje',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['JavaScript', 'Python', 'C++', 'Flutter'],
+    github_username: 'lockjio',
+    twitter_username: '#',
+  },
 ];
