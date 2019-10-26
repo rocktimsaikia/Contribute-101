@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: 'battago',
   },
   {
+    name: 'Sam',
+    country: 'Taiwan',
+    role: 'Student',
+    tech_stack: ['Python'],
+    github_username: 'samx81',
+    twitter_username: '#',
+  },
+  {
     name: 'Rafael',
     country: 'Venezuela',
     role: 'Software Developer',
@@ -53,7 +61,7 @@ module.exports.list = [
     role: 'Backend and mobile developer.',
     tech_stack: ['Node.js', 'React Native'],
     github_username: 'JoemaNequinto',
-    twitter_username: 'joemanequinto'
+    twitter_username: 'joemanequinto',
   },
   {
     name: 'Yogesh Gupta',
