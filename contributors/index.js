@@ -16,6 +16,14 @@ module.exports.list = [
     twitter_username: 'rafaelbaron',
   },
   {
+    name: 'Matheus',
+    country: 'Brazil',
+    role: 'Software Developer',
+    tech_stack: ['C', 'C++', 'Python', 'Java', 'Ruby'],
+    github_username: 'matheusafonsouza',
+    twitter_username: 'MatheusAfSouza',
+  },
+  {
     name: 'Vanessa',
     country: 'Germany',
     role: 'Software Engineer',
