@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'HakaCode',
+    country: 'Brazil',
+    role: 'Frontend',
+    tech_stack: ['JS', 'HTML', 'CSS'],
+    github_username: 'HakaCode',
+    twitter_username: '#',
+  },
+  {
     name: 'maurizio',
     country: 'Italy',
     role: 'Web Engineer',
