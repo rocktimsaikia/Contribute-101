@@ -1158,4 +1158,12 @@ module.exports.list = [
     github_username: 'Nos nart',
     twitter_username: '#',
   },
+  {
+    name: 'Jhan Silva',
+    country: 'El Salvador', 
+    role: 'SysOps',
+    tech_stack: ['Bash', 'MongoDB'],
+    github_username: 'ShankyJS',
+    twitter_username: '@ShankyJS_',
+  },
 ];
