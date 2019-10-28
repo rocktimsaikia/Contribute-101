@@ -1163,7 +1163,7 @@ module.exports.list = [
     country: 'Finland',
     role: 'UX Designer, Web Developer',
     tech_stack: ['Vue', 'React', 'JS', 'PHP', 'HTML', 'CSS'],
-    github_username: 'Nos nart',
-    twitter_username: '#',
+    github_username: 'eppu',
+    twitter_username: '@edwardtehgreat',
   },
 ];
