@@ -1158,4 +1158,12 @@ module.exports.list = [
     github_username: 'Nos nart',
     twitter_username: '#',
   },
+  {
+    name: 'Nikola Vrhovac',
+    country: 'Serbia',
+    role: 'JS deveoper',
+    tech_stack: ['React', 'Node', 'Ruby on Rails'],
+    github_username: 'vr1e',
+    twitter_username: 'NVrle',
+  },
 ];
