@@ -1158,4 +1158,12 @@ module.exports.list = [
     github_username: 'Nos nart',
     twitter_username: '#',
   },
+  {
+    name: 'Shashank Vaidyar',
+    country: 'India',
+    role: 'To be filled',
+    tech_stack: ['Javascript', 'C++'],
+    github_username: 'shashankvaidyar123',
+    twitter_username: '#',
+  },
 ];
