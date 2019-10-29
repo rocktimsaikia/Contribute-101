@@ -1206,4 +1206,12 @@ module.exports.list = [
     github_username: 'OskrNav',
     twitter_username: 'OskrNav',
   },
+  {
+    name: 'Shashank Vaidyar',
+    country: 'India',
+    role: 'To be filled',
+    tech_stack: ['Javascript', 'C++'],
+    github_username: 'shashankvaidyar123',
+    twitter_username: '#',
+  },
 ];
