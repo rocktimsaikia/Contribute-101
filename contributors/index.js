@@ -1166,4 +1166,12 @@ module.exports.list = [
     github_username: 'rafaelgeronimo',
     twitter_username: '#',
   },
+  {
+    name: 'Eetu Eskelinen',
+    country: 'Finland',
+    role: 'UX Designer, Web Developer',
+    tech_stack: ['Vue', 'React', 'JS', 'PHP', 'HTML', 'CSS'],
+    github_username: 'eppu',
+    twitter_username: '@edwardtehgreat',
+  },
 ];
