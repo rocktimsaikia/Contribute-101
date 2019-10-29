@@ -1190,4 +1190,12 @@ module.exports.list = [
     github_username: 'vr1e',
     twitter_username: 'NVrle',
   },
+  {
+    name: 'Célien Boillat',
+    country: 'Switzerland',
+    role: 'Full-Stack Developer',
+    tech_stack: ['Laravel', 'Vue', 'Nuxt', 'TailwindCSS'],
+    github_username: 'pixlforge',
+    twitter_username: '@celienboillat',
+  },
 ];
