@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Fathurrahnan',
+    country: 'Indonesia',
+    role: 'Developer',
+    tech_stack: ['NodeJs', 'PHP', 'Java', 'ReactJs'],
+    github_username: 'nersus15',
+    twitter_username: 'fathur.ashter15',
+  },
+  {
     name: 'jrab66',
     country: 'El Salvador',
     role: 'Devops',
