@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'jrab66',
+    country: 'El Salvador',
+    role: 'Devops',
+    tech_stack: ['python', 'IAC', 'terraform'],
+    github_username: 'jrab66',
+    twitter_username: 'jrab66',
+  },
+  {
     name: 'HakaCode',
     country: 'Brazil',
     role: 'Frontend',
