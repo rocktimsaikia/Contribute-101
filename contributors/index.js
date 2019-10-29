@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: 'fathur.ashter15',
   },
   {
+    name: 'deeprajpandey',
+    country: 'India',
+    role: 'Architecture',
+    tech_stack: ['C', 'C++', 'python', 'gem5'],
+    github_username: 'deeprajpandey',
+    twitter_username: 'deeprajpandey',
+  },
+  {
     name: 'jrab66',
     country: 'El Salvador',
     role: 'Devops',
