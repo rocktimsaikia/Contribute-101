@@ -1214,4 +1214,12 @@ module.exports.list = [
     github_username: 'shashankvaidyar123',
     twitter_username: '#',
   },
+  {
+    name: 'Surasak Phothiphiphit',
+    country: 'Thailand',
+    role: 'Noob',
+    tech_stack: ['Golang', 'Javascript'],
+    github_username: 'saspallow',
+    twitter_username: '#',
+  },
 ];
