@@ -1245,5 +1245,13 @@ module.exports.list = [
     tech_stack: ['Javascript', 'React', 'Node', 'Express', 'Python'],
     github_username: 'breindy',
     twitter_username: '#',
-  }
+  },
+  {
+    name: 'Galleria',
+    country: 'Thailand',
+    role: 'Developer',
+    tech_stack: ['JavaScript', 'Java'],
+    github_username: 'Galleria',
+    twitter_username: '#',
+  },
 ];
