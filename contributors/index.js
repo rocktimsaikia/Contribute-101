@@ -1262,4 +1262,12 @@ module.exports.list = [
     github_username: 'Galleria',
     twitter_username: '#',
   },
+    {
+    name: 'Lavawork',
+    country: 'USA',
+    role: 'Developer',
+    tech_stack: ['JavaScript', 'NodeJs'],
+    github_username: 'lavawork',
+    twitter_username: '#',
+  },
 ];
