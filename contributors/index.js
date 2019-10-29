@@ -1238,4 +1238,12 @@ module.exports.list = [
     github_username: 'jarcillas',
     twitter_username: 'jigogwapo',
   },
+  {
+    name: 'breindy',
+    country: 'USA',
+    role: 'Engineer',
+    tech_stack: ['Javascript', 'React', 'Node', 'Express', 'Python'],
+    github_username: 'breindy',
+    twitter_username: '#',
+  }
 ];
