@@ -23,6 +23,14 @@ module.exports.list = [
     github_username: 'jrab66',
     twitter_username: 'jrab66',
   },
+   {
+    name: 'Kriti Mehta',
+    country: 'India',
+    role: 'Frontend',
+    tech_stack: ['python', 'C++', 'C', 'Java'],
+    github_username: 'Kriti021999',
+    twitter_username: '#',
+  },
   {
     name: 'HakaCode',
     country: 'Brazil',
