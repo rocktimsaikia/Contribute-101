@@ -1262,4 +1262,12 @@ module.exports.list = [
     github_username: 'Galleria',
     twitter_username: '#',
   },
+  {
+    name: 'Constantine',
+    country: 'Netherlands',
+    role: 'DevOps',
+    tech_stack: ['Python', 'Ansible', 'Terraform', 'Bash'],
+    github_username: 'ckorobov',
+    twitter_username: '#',
+  },
 ];
