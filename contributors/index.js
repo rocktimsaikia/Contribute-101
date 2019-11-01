@@ -6,6 +6,15 @@ module.exports.list = [
     tech_stack: ['NodeJs', 'React', 'Dart', 'Swift'],
     github_username: 'sethusenthil',
     twitter_username: 'sethusenthilll',
+  }
+    ,
+  {
+    name: 'Samer',
+    country: 'Uruguay',
+    role: 'Developer',
+    tech_stack: ['NodeJs', 'VB.NET', 'Java', 'Python'],
+    github_username: 'S4M3R',
+    twitter_username: 'samerstudio',
   },
   {
     name: 'Fathurrahnan',
