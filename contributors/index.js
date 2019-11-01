@@ -6,8 +6,7 @@ module.exports.list = [
     tech_stack: ['NodeJs', 'React', 'Dart', 'Swift'],
     github_username: 'sethusenthil',
     twitter_username: 'sethusenthilll',
-  }
-    ,
+  },
   {
     name: 'Samer',
     country: 'Uruguay',
@@ -1303,7 +1302,6 @@ module.exports.list = [
     github_username: 'pavanmt',
     twitter_username: 'pavankumarmt',
   },
-  ,
   {
     name: 'Constantine',
     country: 'Netherlands',
@@ -1311,7 +1309,8 @@ module.exports.list = [
     tech_stack: ['Python', 'Ansible', 'Terraform', 'Bash'],
     github_username: 'ckorobov',
     twitter_username: '#',
-  },{
+  },
+  {
     name: 'Leann',
     country: 'USA',
     role: 'Developer',
