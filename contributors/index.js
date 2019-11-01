@@ -1285,5 +1285,13 @@ module.exports.list = [
     tech_stack: ['JavaScript', 'Java'],
     github_username: 'Galleria',
     twitter_username: '#',
-  }
+  },
+  {
+    name: 'Pavan Kumar M T',
+    country: 'India',
+    role: 'Developer',
+    tech_stack: ['Java', 'Python', 'NodeJs', 'Selenium', 'Alexa', 'Actions', 'Docker'],
+    github_username: 'pavanmt',
+    twitter_username: 'pavankumarmt',
+  },
 ];
