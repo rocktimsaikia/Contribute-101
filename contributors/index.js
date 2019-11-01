@@ -1311,5 +1311,12 @@ module.exports.list = [
     tech_stack: ['Python', 'Ansible', 'Terraform', 'Bash'],
     github_username: 'ckorobov',
     twitter_username: '#',
+  },{
+    name: 'Leann',
+    country: 'USA',
+    role: 'Developer',
+    tech_stack: ['JavaScript', 'Ruby'],
+    github_username: 'leannkim11',
+    twitter_username: '#',
   },
 ];
