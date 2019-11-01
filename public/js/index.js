@@ -21,7 +21,7 @@ const x = setInterval(() => {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById('countdown').innerHTML = 'EXPIRED';
+    document.getElementById('countdown').innerHTML = '';
   }
 }, 1000);
 

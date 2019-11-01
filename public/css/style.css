@@ -29,6 +29,10 @@ p {
   font-weight: 600;
   margin-bottom: 10px;
 }
+#hero-page > h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
 
 #countdown > div {
   display: inline-block;
@@ -192,7 +196,8 @@ p {
 }
 
 /* divs with the buttons to scroll up and down */
-#scroll_down, #scroll_up {
+#scroll_down,
+#scroll_up {
   display: flex;
   justify-content: center;
 }
@@ -210,5 +215,6 @@ p {
   cursor: pointer;
   padding: 10px;
   border-radius: 5px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 1px 10px -12px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 1px 10px -12px rgba(0, 0, 0, 0.4);
 }
