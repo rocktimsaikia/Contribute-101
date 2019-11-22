@@ -1333,4 +1333,12 @@ module.exports.list = [
     github_username: 'dannynpham',
     twitter_username: '#',
   },
+  {
+    name: 'Dyan Carra',
+    country: 'Brazil',
+    role: 'Developer',
+    tech_stack: ['Ruby', 'Rails', 'Python'],
+    github_username: 'dyancarlos',
+    twitter_username: '#'
+  }
 ];
