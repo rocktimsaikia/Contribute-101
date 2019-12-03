@@ -1340,5 +1340,12 @@ module.exports.list = [
     tech_stack: ['Ruby', 'Rails', 'Python'],
     github_username: 'dyancarlos',
     twitter_username: '#'
+  },
+  {
+    name: 'N.V.Revanth Reddy',
+    country: 'India',
+    role: 'Software Developer',
+    tech_stack: ['java', 'JS', 'React', 'Spring', 'Mysql'],
+    github_username: 'revanth1742'
   }
 ];
