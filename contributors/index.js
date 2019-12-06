@@ -1353,6 +1353,6 @@ module.exports.list = [
     country: 'USA',
     role: 'Developer',
     tech_stack: ['Python', 'Nodejs', 'MongoDB', 'Angularjs'],
-    github_username: "Jaisu-1"
+    github_username: 'Jaisu-1'
   }
 ];
