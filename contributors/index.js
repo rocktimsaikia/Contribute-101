@@ -1347,5 +1347,12 @@ module.exports.list = [
     role: 'Software Developer',
     tech_stack: ['java', 'JS', 'React', 'Spring', 'Mysql'],
     github_username: 'revanth1742'
+  },
+  {
+    name: 'Jaisurya Nanduri',
+    country: 'USA',
+    role: 'Developer',
+    tech_stack: ['Python', 'Nodejs', 'MongoDB', 'Angularjs'],
+    github_username: 'Jaisu-1'
   }
 ];
