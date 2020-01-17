@@ -1,5 +1,13 @@
 module.exports.list = [
   {
+    name: 'Sabahat iqbal',
+    country: 'United States',
+    role: 'Developer',
+    tech_stack: ['Javascript', 'React', 'Python'],
+    github_username: 'SabahatPK',
+    twitter_username: 'sabahatiqbal',
+  },
+  {
     name: 'Sethu Narayan Senthil',
     country: 'United States',
     role: 'Highschool Student',
