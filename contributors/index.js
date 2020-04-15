@@ -1362,5 +1362,12 @@ module.exports.list = [
     role: 'Developer',
     tech_stack: ['Python', 'Nodejs', 'MongoDB', 'Angularjs'],
     github_username: 'Jaisu-1'
+  },
+  {
+    name: 'Phil Swartz',
+    country: 'USA',
+    role: 'Web Developer',
+    tech_stack: ['Javascript', 'Nodejs', 'ReactJS', 'Mongodb'],
+    github_username: 'pswartz66'
   }
 ];
