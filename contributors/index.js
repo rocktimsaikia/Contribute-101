@@ -1383,5 +1383,12 @@ module.exports.list = [
     role: 'Student',
     tech_stack: ['Python', 'C#', 'Objective C', 'Swift'],
     github_username: 'daarcher04'
+  },
+ {
+    name: 'Pedro Alecrim',
+    country: 'Brazil',
+    role: 'Technical Writer',
+    tech_stack: ['Markdown', 'Information Architecture'],
+    github_username: 'pedroalecrim'
   }
 ];
