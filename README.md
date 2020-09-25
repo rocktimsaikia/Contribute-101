@@ -3,13 +3,14 @@
 </h1>
 <p align="center"> 
 <img src="https://travis-ci.com/RocktimSaikia/Contribute-101.svg?branch=master" />
+<h4>✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉</h4>
 </p>
 
-### ✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉
+<h4 align="center">✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉</h4>
 
 <!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
 
-> ### ✨ Contributors that want to work on additional features on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
+> ✨ Contributors that want to work on additional features on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
 
 <img src="screenshots/hacktober.png"/>
 
