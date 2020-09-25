@@ -11,7 +11,7 @@
 
 > ### ✨ Contributors that want to work on additional features on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
 
-![alt text](screenshots/new_website.jpg);
+<img src="screenshots/hacktober.png"/>
 
 ---
 
