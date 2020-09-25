@@ -1,8 +1,8 @@
-const countDownDate = new Date('Oct 31, 2019 12:00:00').getTime();
+const countDownDate = new Date('Oct 31, 2020 12:00:00').getTime();
 
 const numberFormat = n => `0${n}`.slice(-2);
 // Update the count down every 1 second
-const x = setInterval(() => {
+const countDown = setInterval(() => {
   const now = new Date().getTime();
 
   const distance = countDownDate - now;
@@ -20,7 +20,7 @@ const x = setInterval(() => {
   document.getElementById('sec').innerHTML = numberFormat(seconds);
 
   if (distance < 0) {
-    clearInterval(x);
+    clearInterval(countDown);
     document.getElementById('countdown').innerHTML = '';
   }
 }, 1000);
@@ -44,3 +44,6 @@ scrollUpButton.addEventListener('click', () => {
     behavior: 'smooth',
   });
 });
+
+//INIT COUNTDOWN
+countDown();
