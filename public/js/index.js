@@ -45,5 +45,5 @@ scrollUpButton.addEventListener('click', () => {
   });
 });
 
-//INIT COUNTDOWN
+// INIT COUNTDOWN
 countDown();
