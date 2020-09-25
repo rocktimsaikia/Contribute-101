@@ -3,7 +3,7 @@
 </h1>
 <p align="center"> 
 <img src="https://travis-ci.com/RocktimSaikia/Contribute-101.svg?branch=master" />
-<h4>✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉</h4>
+<h4 align="center">✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉</h4>
 </p>
 
 <!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
