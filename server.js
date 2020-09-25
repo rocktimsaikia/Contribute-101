@@ -3,14 +3,18 @@ const express = require('express');
 const app = express();
 const reload = require('reload');
 const http = require('http');
-const { list } = require('./contributors/index');
+const {
+  list
+} = require('./contributors/index');
 
 const server = http.createServer(app);
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-  res.render('index', { List: list });
+  res.render('index', {
+    List: list.reverse()
+  });
 });
 
 const port = process.env.PORT || 3000;
