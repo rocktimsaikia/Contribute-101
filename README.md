@@ -14,45 +14,54 @@
 
 ---
 
-### Introduction:
+<br><br>
+
+## :cloud: Introduction:
 
 Contribution to Open Source Projects is a great way to enhanching your coding skills and along with expanding your knowledge on the new technologies. But top of that contributing to Open Source Projects is FUN.The joy of the first time when your pull request gets accepted is amazing. Which you are going to find today by contributing to this project.
 
-### Prerequisite :
+<br><br>
+
+## :hammer: Prerequisite :
 
 - install [nodejs](https://nodejs.org) on your local machine globally.
 
-## Steps :
+<br><br>
 
-1. `Fork` this repo and `clone` it to your computer
+## :sparkles: Steps :
 
-2.
+1. Fork this repository and clone it to your computer
 
-```
+2. Install the dependencies locally
+
+```bash
 npm install
 ```
 
 3. Now create a new remote branch with any name you want
 
-```
+```bash
 git checkout -b "myCard"
 ```
 
 4. Now go to `contributors/index.js` file and add your details.
 
-5. Run this command for any remaining typos and style errors :
+5. Run this command to check for any remaining typos and style errors
 
-```
+```bash
 npm run lint:fix
 ```
 
-5. Push your local changes :
+5. Push your local changes that you have made
 
-```git add .
-   git commit -m "Add YOURNAME's card"
-   git push -u origin myCard
+```bash
+git add .
+git commit -m "Add YOURNAME's card"
+git push -u origin myCard
 ```
 
 ---
 
-##### Congrats :tada: .You have successfully created your pull request ,now wait for the review and merge.
+<br><br>
+
+### Congrats :tada: .You have successfully created your pull request. Now wait for the review and merge.
