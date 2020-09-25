@@ -5,7 +5,8 @@
 <img src="https://travis-ci.org/RocktimSaikia/Contribute-101.svg?branch=master" />
 </p>
 
-> ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉
+### ✨ Hacktoberfest 2020 has started ! Start contributing 🚀🎉
+<!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
 
 > ### ✨ Contributors that want to work on additional features on this project . Please follow this guideline :point_right: [Here](https://github.com/RocktimSaikia/Contribute-101/blob/master/contributors-guide.md)
 
