@@ -1,3 +1,29 @@
+
+var input=document.getElementById("input");
+
+var count=1;
+input.addEventListener("click",function(){
+    count++;
+    if(count%2==0){
+        var color="#072540"
+    
+           var back=document.getElementById("body");
+           
+    back.style.backgroundColor=color;
+  
+    }
+    else{
+           var back=document.getElementById("body");
+          var color="#f7fafc"
+    back.style.backgroundColor=color;
+
+    }
+});
+
+
+
+
+
 const countDownDate = new Date('Oct 31, 2020 12:00:00').getTime();
 
 const numberFormat = n => `0${n}`.slice(-2);
