@@ -85,11 +85,17 @@ p {
   width: 20vw;
   float: left;
   font-weight: 600;
-  background: #fff;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   color: #333;
-  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow:
+    0 2.8px 3.6px rgba(0, 0, 0, 0.019),
+    0 6.7px 8.6px rgba(0, 0, 0, 0.025),
+    0 12.5px 16.2px rgba(0, 0, 0, 0.029),
+    0 22.3px 28.8px rgba(0, 0, 0, 0.033),
+    0 41.8px 53.9px rgba(0, 0, 0, 0.037),
+    0 100px 129px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
+  border: 2px solid #fff;
   padding: 10px;
   display: inherit;
 }
@@ -106,7 +112,7 @@ p {
 
 .info-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: baseline;
 }
 
@@ -133,18 +139,15 @@ p {
   font-size: 1vw;
   font-weight: 600;
   display: inline-block;
-  padding-left: 0.5vw;
   max-width: 10vw;
   overflow: hidden;
-  text-overflow: ellipsis;
   white-space: nowrap;
   margin: 0px;
 }
 
 .info_card p.country {
+  background-color: #fff;
   font-size: 12px;
-  background-color: var(--lightgrey);
-  border: solid var(--lightgrey);
   border-radius: 0.4em;
   padding: 0em 0.5em;
   float: right;
