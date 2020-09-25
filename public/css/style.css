@@ -97,7 +97,9 @@ p {
 .img-wrapper {
   position: relative;
   width: 150px;
+  height: 150px;
   border-radius: 50%;
+  background-color: #fbfbfb;
   padding: 5px;
   border: 2px solid #55ff60;
 }
