@@ -12,8 +12,6 @@
 
 <img src="screenshots/hacktober.png"/>
 
----
-
 <br><br>
 
 ## :cloud: Introduction:
