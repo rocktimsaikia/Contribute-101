@@ -1385,6 +1385,13 @@ module.exports.list = [
     github_username: 'daarcher04'
   },
   {
+    name: 'Pedro Alecrim',
+    country: 'Brazil',
+    role: 'Technical Writer',
+    tech_stack: ['Markdown', 'Information Architecture'],
+    github_username: 'pedroalecrim'
+  },
+  {
     name: 'Athul Joy',
     country: 'India',
     role: 'Student',
