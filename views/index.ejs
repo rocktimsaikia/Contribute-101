@@ -6,9 +6,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+  
+  
   <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/dark-mode.css">
 </head>
 
 <body>
@@ -20,6 +22,19 @@
       <li class="nav-item">
         <a class="nav-link text-light" href="https://github.com/RocktimSaikia/Contribute-101" target="_blank">Github <i
             class="fab fa-github"></i></a>
+            <li class="nav-item">
+              <div class="nav-link text-light"> 
+                <div class="custom-control custom-switch">
+                
+                  <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                
+                  <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                
+                </div>
+                <script src="/js/dark-mode-switch.min.js"></script>
+                </div>
+                
+            </li>
       </li>
     </ul>
   </nav>
@@ -100,7 +115,132 @@
     </ul>
   </div>
 
-  <!-- button to scroll up to the top of the page -->
+  <!-- button to scroll up to the top of the page --><!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!--External links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/dark-mode.css">
+  </head>
+  
+  <body>
+    <!--Navbar starts-->
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Contribute101 <i class="fas fa-code-branch"></i></a>
+      <img src="/assets/hacktoberfest.svg" alt="hacktoberfest logo" height="35px" />
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="https://github.com/RocktimSaikia/Contribute-101" target="_blank">Github <i
+              class="fab fa-github"></i></a>
+              <li class="nav-item">
+                <div class="custom-control custom-switch">
+                  
+                    <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                  
+                    <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
+                  
+                  </div>
+                  
+              </li>
+        </li>
+      </ul>
+    </nav>
+    <!--Navbar starts-->
+  
+    <!--Hero page starts-->
+    <div class="hero">
+      <div id="hero-page">
+        <!-- <h3>
+          Hacktoberfest 2019 has ended !
+        </h3>
+        <h4>Congrats to everyone who participated 🎉</h4>
+        <h4>See you in 2020 🚀</h4> -->
+        <div id="countdown">
+          <h2 class="countdown-title">Hacktoberfest live countdown ⏲️</h2>
+          <div><span id="days">10</span><span>DAYS</span></div>
+          <div><span id="hours">20</span><span>HOURS</span></div>
+          <div><span id="min">09</span><span>MINUTES</span></div>
+          <div><span id="sec">10</span><span>SECONDS</span></div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- button to scroll down to the bottom of the page -->
+    <div id="scroll_down">
+      <button class="scroll_btn">Go to bottom</button>
+    </div>
+  
+    <!--Hero page starts-->
+    <div class="cards-wrapper">
+      <ul class="cards">
+        <% List.forEach((obj)=>{%>
+        <div class="info_card">
+          <li>
+            <div class="img-wrapper">
+              <img class="lazy" data-src="https://avatars.githubusercontent.com/<%=obj.github_username%>"
+                alt="<%=obj.name%>" onerror="this.src='https://avatars.githubusercontent.com/404'" />
+            </div>
+  
+            <div class="social-row">
+              <a href="https://github.com/<%=obj.github_username%>" class="social-media col" target="_blank"
+                style="float: left">
+                <i class="fab fa-github"></i>
+              </a>
+  
+              <a href="https://twitter.com/<%=obj.twitter_username%>" class="social-media col" target="_blank"
+                style="float: right">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+  
+            <div>
+              <h4><%=obj.name%></h4>
+              <div class="info-wrapper">
+                <% if (obj.role){ %>
+                <p class="role"><%=obj.role%></p>
+                <% } else { %>
+                <p class="role">To be filled</p>
+                <% } %>
+                <p class="country">
+                  <i class="fas fa-globe-americas"></i>
+                  <% if(obj.country.toLowerCase()=='united states of america'){%>
+                  <%='USA'%> <%}else{%> <%=obj.country%> <%} %>
+                </p>
+              </div>
+            </div>
+  
+            <div class="tech-stack">
+              <ul>
+                <% obj.tech_stack.slice(0,3).map(i=>{%>
+                <li><%= i %></li>
+                <%})%>
+              </ul>
+            </div>
+          </li>
+        </div>
+        <%}) %>
+      </ul>
+    </div>
+  
+    <!-- button to scroll up to the top of the page -->
+    <div id="scroll_up">
+      <button class="scroll_btn">Go to top</button>
+    </div>
+    <script src="/js/index.js"></script>
+    <script src="/js/lazy-loading.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <script src="/reload/reload.js"></script>
+    <script src="/js/dark-mode-switch.min.js"></script>
+   
+  </body>
+  
+  </html>
   <div id="scroll_up">
     <button class="scroll_btn">Go to top</button>
   </div>
@@ -108,6 +248,11 @@
   <script src="/js/lazy-loading.js"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="/reload/reload.js"></script>
+ <script src="/js/dark-mode-switch.js"></script> 
+  <script src="/js/dark-mode-switch.min.js"></script>
+
+  
+ 
 </body>
 
 </html>
