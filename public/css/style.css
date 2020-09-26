@@ -76,14 +76,17 @@ p {
   position: relative;
   display: grid;
   list-style: none;
-  grid-gap: 3vw;
+  grid-row-gap: 5vw;
+  grid-column-gap: 3vw;
   grid-template-columns: repeat(4, 20vw);
 }
 
 .info_card {
+  position: relative;
   color: var(--darkgrey);
-  width: 20vw;
-  float: left;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
   font-weight: 600;
   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
   color: #333;
@@ -95,10 +98,16 @@ p {
     0 41.8px 53.9px rgba(0, 0, 0, 0.037),
     0 100px 129px rgba(0, 0, 0, 0.05);
   border-radius: 5px;
-  border: 2px solid #fff;
-  padding: 10px;
   display: inherit;
+  transform-style: preserve-3d;
 }
+
+.inner-border {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
 
 .img-wrapper {
   position: relative;
@@ -108,6 +117,9 @@ p {
   background-color: #fbfbfb;
   padding: 5px;
   border: 2px solid #55ff60;
+  margin-top: -70px;
+  transform: translateZ(20px);
+  box-shadow: 0 0 50px 0 rgba(51, 51, 51, 0.3);
 }
 
 .info-wrapper {
