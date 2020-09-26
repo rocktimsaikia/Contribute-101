@@ -3,7 +3,7 @@ module.exports.list = [
     name: 'Bereket Semagn',
     country: 'Canada',
     role: 'Middle School Student',
-    tech_stack: ['JavaScript', 'Python', 'Node.js', 'HTML & CSS'],
+    tech_stack: ['JavaScript', 'Python', 'HTML & CSS', 'Python'],
     github_username: 'bereketsemagn',
     twitter_username: 'bereketsemagn',
   },
