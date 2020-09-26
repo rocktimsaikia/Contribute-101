@@ -1,7 +1,5 @@
-/* eslint-disable */
-
-!(function(window) {
-  const $q = function(q, res) {
+!(function (window) {
+  const $q = function (q, res) {
     if (document.querySelectorAll) {
       res = document.querySelectorAll(q);
     } else {
@@ -16,20 +14,21 @@
     }
     return res;
   };
-  const addEventListener = function(evt, fn) {
-    window.addEventListener
-      ? this.addEventListener(evt, fn, false)
-      : window.attachEvent
-      ? this.attachEvent(`on${evt}`, fn)
-      : (this[`on${evt}`] = fn);
+  const addEventListener = function (evt, fn) {
+    window.addEventListener ?
+      this.addEventListener(evt, fn, false) :
+      window.attachEvent ?
+      this.attachEvent(`on${evt}`, fn) :
+      (this[`on${evt}`] = fn);
   };
-  const _has = function(obj, key) {
+  const _has = function (obj, key) {
     return Object.prototype.hasOwnProperty.call(obj, key);
   };
+
   function loadImage(el, fn) {
     const img = new Image();
     const src = el.getAttribute('data-src');
-    img.onload = function() {
+    img.onload = function () {
       if (el.parent) el.parent.replaceChild(img, el);
       else el.src = src;
 
@@ -50,7 +49,7 @@
 
   const images = new Array();
   const query = $q('img.lazy');
-  const processScroll = function() {
+  const processScroll = function () {
     for (var i = 0; i < images.length; i++) {
       if (elementInViewport(images[i])) {
         loadImage(images[i], () => {

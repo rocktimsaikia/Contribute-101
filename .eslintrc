@@ -1,5 +1,6 @@
 {
   "extends": "airbnb-base",
+  "ignorePatterns": ["lazy-loading.js", "**/vendor/*.js"],
   "rules": {
     "comma-dangle": ["error", "only-multiline"],
     "implicit-arrow-linebreak": "off",

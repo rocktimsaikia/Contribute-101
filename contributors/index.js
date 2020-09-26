@@ -1376,5 +1376,27 @@ module.exports.list = [
     role: 'Frontend Developer',
     tech_stack: ['Javascript', 'Nodejs', 'ReactJS', 'Mongodb'],
     github_username: 'jommartinez'
+  },
+  {
+    name: 'Damien Archer',
+    country: 'USA',
+    role: 'Student',
+    tech_stack: ['Python', 'C#', 'Objective C', 'Swift'],
+    github_username: 'daarcher04'
+  },
+  {
+    name: 'Pedro Alecrim',
+    country: 'Brazil',
+    role: 'Technical Writer',
+    tech_stack: ['Markdown', 'Information Architecture'],
+    github_username: 'pedroalecrim'
+  },
+  {
+    name: 'Athul Joy',
+    country: 'India',
+    role: 'Student',
+    tech_stack: ['JavaScript', 'NodeJS', 'Angular', 'React'],
+    github_username: 'iathul',
+    twitter_username: '#'
   }
 ];
