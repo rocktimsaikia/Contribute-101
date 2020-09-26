@@ -257,11 +257,40 @@ p {
   }
   .info_card{
     display: block;
+    
   }
+ 
+  #countdown>div>span:nth-child(1) {
+    font-size: 20px;
+    font-weight: 400;
+    color: #4f4f4f;
+  }
+  
+ 
 }
 @media only screen and (max-width: 1220px) {
 
   .cards{
     grid-template-columns: repeat(2, 30vw);
   }
+}
+
+@media only screen and (max-width: 700px) {
+  #countdown>div {
+    width: 17%;
+  }
+  .cards{
+    grid-template-columns: repeat(1, 60vw);
+    
+  }
+  .info_card{
+    margin-bottom: 30px;
+  }
+  .info_card p.role {
+    font-size: 2vw;
+  }
+  .social-media{
+    padding: 0vw 2.5vw;
+  }
+  
 }
