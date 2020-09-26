@@ -250,3 +250,18 @@ p {
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 1px 10px -12px rgba(0, 0, 0, 0.4);
 }
+@media only screen and (max-width: 1400px) {
+
+  .cards{
+    grid-template-columns: repeat(3, 20vw);
+  }
+  .info_card{
+    display: block;
+  }
+}
+@media only screen and (max-width: 1220px) {
+
+  .cards{
+    grid-template-columns: repeat(2, 30vw);
+  }
+}
