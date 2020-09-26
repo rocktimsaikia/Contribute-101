@@ -44,6 +44,3 @@ scrollUpButton.addEventListener('click', () => {
     behavior: 'smooth',
   });
 });
-
-// INIT COUNTDOWN
-countDown();
