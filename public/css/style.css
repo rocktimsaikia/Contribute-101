@@ -26,12 +26,12 @@ p {
   margin-top: 20px;
 }
 
-#hero-page>h3 {
+#hero-page > h3 {
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-#hero-page>h4 {
+#hero-page > h4 {
   font-weight: 600;
   margin-bottom: 10px;
 }
@@ -42,7 +42,7 @@ p {
   margin-bottom: 30px;
 }
 
-#countdown>div {
+#countdown > div {
   display: inline-block;
   width: 8%;
   background: #fff;
@@ -53,13 +53,13 @@ p {
   border-radius: 10px;
 }
 
-#countdown>div>span:nth-child(1) {
+#countdown > div > span:nth-child(1) {
   font-size: 40px;
   font-weight: 600;
   color: #4f4f4f;
 }
 
-#countdown>div>span {
+#countdown > div > span {
   color: #818181;
   font-weight: 600;
   font-size: 10px;
@@ -153,7 +153,7 @@ p {
   margin-left: 10px;
 }
 
-.info_card p.country>i {
+.info_card p.country > i {
   vertical-align: middle;
 }
 
@@ -167,7 +167,7 @@ p {
   margin-top: 0.7vw;
 }
 
-.tech-stack>ul {
+.tech-stack > ul {
   display: flex;
   list-style-type: none;
   overflow: hidden;
@@ -182,7 +182,7 @@ p {
   padding: 0vw 1vw;
 }
 
-.info_card>a {
+.info_card > a {
   font-size: 30px;
   margin: 10px;
 }
@@ -201,11 +201,11 @@ p {
   justify-content: center;
 }
 
-.social-row>a:hover {
+.social-row > a:hover {
   text-decoration: none;
 }
 
-.social-media>i {
+.social-media > i {
   font-size: 15px;
   color: #5165d3;
 }
@@ -232,4 +232,23 @@ p {
   border-radius: 5px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 1px 10px -12px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark mode and White mode button */
+
+.mode {
+  margin-top: 9.5px;
+}
+.change {
+  cursor: pointer;
+  border: 1px solid #555;
+  border-radius: 40%;
+  width: 20px;
+  text-align: center;
+  padding: 2px;
+  margin-left: 8px;
+}
+.dark {
+  background-color: #072540;
+  color: whitesmoke;
 }

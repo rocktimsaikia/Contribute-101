@@ -21,6 +21,12 @@
         <a class="nav-link text-light" href="https://github.com/RocktimSaikia/Contribute-101" target="_blank">Github <i
             class="fab fa-github"></i></a>
       </li>
+
+      <!--Button for Dark mode and White mode-->
+      <li class="nav-item mode">
+        <span style="color: white;">DARK MODE</span>
+        <span style="color: whitesmoke;" class="change">OFF</span>
+      </li>
     </ul>
   </nav>
   <!--Navbar starts-->
@@ -72,17 +78,24 @@
           </div>
 
           <div>
-            <h4><%=obj.name%></h4>
+            <h4>
+              <%=obj.name%>
+            </h4>
             <div class="info-wrapper">
               <% if (obj.role){ %>
-              <p class="role"><%=obj.role%></p>
+              <p class="role">
+                <%=obj.role%>
+              </p>
               <% } else { %>
               <p class="role">To be filled</p>
               <% } %>
               <p class="country">
                 <i class="fas fa-globe-americas"></i>
                 <% if(obj.country.toLowerCase()=='united states of america'){%>
-                <%='USA'%> <%}else{%> <%=obj.country%> <%} %>
+                <%='USA'%>
+                <%}else{%>
+                <%=obj.country%>
+                <%} %>
               </p>
             </div>
           </div>
@@ -90,7 +103,9 @@
           <div class="tech-stack">
             <ul>
               <% obj.tech_stack.slice(0,3).map(i=>{%>
-              <li><%= i %></li>
+              <li>
+                <%= i %>
+              </li>
               <%})%>
             </ul>
           </div>
@@ -104,7 +119,9 @@
   <div id="scroll_up">
     <button class="scroll_btn">Go to top</button>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="/js/index.js"></script>
+  <script src="/js/dark_mode.js"></script>
   <script src="/js/lazy-loading.js"></script>
   <script async defer src="https://buttons.github.io/buttons.js"></script>
   <script src="/reload/reload.js"></script>
