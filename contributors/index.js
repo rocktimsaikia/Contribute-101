@@ -15,14 +15,6 @@ const list = [{
 		twitter_username: 'sethusenthilll',
 	},
 	{
-		name: 'Ramanujam Gond',
-		country: 'India',
-		role: 'UI/UX Developer',
-		tech_stack: ['JavaScript', 'ReactJs', 'Dart', 'C++'],
-		github_username: 'ramanujamgond',
-		twitter_username: 'string1301',
-	},
-	{
 		name: 'Samer',
 		country: 'Uruguay',
 		role: 'Developer',
@@ -1421,6 +1413,14 @@ const list = [{
 		tech_stack: ['JavaScript', 'React', 'CSS'],
 		github_username: 'cat-street',
 		twitter_username: 'cat__logic',
+	},
+	{
+		name: 'Ramanujam Gond',
+		country: 'India',
+		role: 'UI/UX Developer',
+		tech_stack: ['JavaScript', 'ReactJs', 'Dart', 'C++'],
+		github_username: 'ramanujamgond',
+		twitter_username: 'string1301',
 	},
 ];
 
