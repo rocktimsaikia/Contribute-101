@@ -1414,6 +1414,14 @@ const list = [{
 		github_username: 'cat-street',
 		twitter_username: 'cat__logic',
 	},
+	{
+		name: 'Ramanujam Gond',
+		country: 'India',
+		role: 'UI/UX Developer',
+		tech_stack: ['JavaScript', 'ReactJs', 'Dart', 'C++'],
+		github_username: 'ramanujamgond',
+		twitter_username: 'string1301',
+	},
 ];
 
 module.exports.list = list.reverse();
