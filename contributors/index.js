@@ -1435,6 +1435,13 @@ const list = [{
 		role: 'Software Developer',
 		tech_stack: ['NodeJs', 'C++', 'JavaScript', 'React'],
 		github_username: 'AnkitLenka26',
+	},
+	{
+		name: 'Chirag Sharma',
+		country: 'India',
+		role: 'Student',
+		tech_stack: ['JavaScript', 'Python', 'C++'],
+		github_username: 'ChiragSharma1',
 		twitter_username: '#',
 	},
 ];
