@@ -1420,7 +1420,22 @@ const list = [{
 		role: 'Student',
 		tech_stack: ['JavaScript','Python','C++'],
 		github_username: 'ChiragSharma1',
-		twitter_username: '#',
+    twitter_username: '#',
+	},
+  {
+		name: 'Ramanujam Gond',
+		country: 'India',
+		role: 'UI/UX Developer',
+		tech_stack: ['JavaScript', 'ReactJs', 'Dart', 'C++'],
+		github_username: 'ramanujamgond',
+		twitter_username: 'string1301',
+	},
+	{
+		name: 'Michelle Tanoto',
+		country: 'Australia',
+		role: 'Software Developer',
+		tech_stack: ['JavaScript', 'React Native', 'NodeJS'],
+		github_username: 'tanoto-the-explorer',
 	},
 ];
 
