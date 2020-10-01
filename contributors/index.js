@@ -1422,6 +1422,14 @@ const list = [{
 		github_username: 'ramanujamgond',
 		twitter_username: 'string1301',
 	},
+	{
+		name: 'Michelle Tanoto',
+		country: 'Australia',
+		role: 'Software Developer',
+		tech_stack: ['JavaScript', 'React Native', 'NodeJS'],
+		github_username: 'tanoto-the-explorer',
+		twitter_username: '#',
+	},
 ];
 
 module.exports.list = list.reverse();
