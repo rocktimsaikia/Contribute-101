@@ -1423,11 +1423,33 @@ const list = [{
 		twitter_username: 'string1301',
 	},
 	{
+
 		name: 'Manal Jain',
 		country: 'India',
 		role: 'Developer',
 		tech_stack: ['Javascript', 'React', 'Python','Java'],
 		github_username: 'manaljain6667',
+},{
+		name: 'Michelle Tanoto',
+		country: 'Australia',
+		role: 'Software Developer',
+		tech_stack: ['JavaScript', 'React Native', 'NodeJS'],
+		github_username: 'tanoto-the-explorer',
+	},
+	{
+		name: 'Ankit Lenka',
+		country: 'India',
+		role: 'Software Developer',
+		tech_stack: ['NodeJs', 'C++', 'JavaScript', 'React'],
+		github_username: 'AnkitLenka26',
+	},
+	{
+		name: 'Chirag Sharma',
+		country: 'India',
+		role: 'Student',
+		tech_stack: ['JavaScript', 'Python', 'C++'],
+		github_username: 'ChiragSharma1',
+		twitter_username: '#',
 	},
 ];
 
