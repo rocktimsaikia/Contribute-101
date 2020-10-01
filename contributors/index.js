@@ -8,6 +8,14 @@ module.exports.list = [
     twitter_username: "RocktimSaikia10"
   },
   {
+    name: "Riya",
+    country: "India",
+    role: "To be filled",
+    tech_stack: ["MongoDB", "Node", "Express", "Angular"],
+    github_username: "Icor101",
+    twitter_username: "NA"
+  },
+  {
     name: "Alejandro García",
     country: "España",
     role: "To be filled",
