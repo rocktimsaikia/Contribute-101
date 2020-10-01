@@ -1380,8 +1380,8 @@ const list = [{
 	{
 		name: 'Jonathan',
 		country: 'ES',
-		role: 'Frontend Developer',
-		tech_stack: ['Javascript', 'Nodejs', 'ReactJS', 'Mongodb'],
+		role: 'Frontend & WordPress Developer',
+		tech_stack: ['Javascript', 'Nodejs', 'ReactJS', 'Mongodb', 'CSS'],
 		github_username: 'jommartinez',
 	},
 	{
