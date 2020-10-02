@@ -1444,6 +1444,14 @@ const list = [{
 		github_username: 'ChiragSharma1',
 		twitter_username: '#',
 	},
+	{
+		name: 'Love Tyagi',
+		country: 'India',
+		role: 'Developer',
+		tech_stack: ['MEAN', 'JAVA', 'C++', 'MYSQL'],
+		github_username: 'lovetyagi-17',
+		twitter_username: '#',
+	},
 ];
 
 module.exports.list = list.reverse();
