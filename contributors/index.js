@@ -1452,6 +1452,14 @@ const list = [{
 		github_username: 'Sagar2366',
 		twitter_username: '#',
 	},
+	{
+		name: 'Alex P Handland',
+		country: 'United States',
+		role: 'College Student',
+		tech_stack: ['JavaScript', 'Python'],
+		github_username: 'Pillborn',
+		twitter_username: '#',
+	      
 ];
 
 module.exports.list = list.reverse();
