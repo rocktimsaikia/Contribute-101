@@ -1,10 +1,9 @@
 const list = [{
-		name: 'Sabahat iqbal',
-		country: 'United States',
-		role: 'Developer',
-		tech_stack: ['Javascript', 'React', 'Python'],
-		github_username: 'SabahatPK',
-		twitter_username: 'sabahatiqbal',
+		name: 'Kourto',
+		country: 'Canada',
+		role: 'Student',
+		tech_stack: ['C', 'Java', 'C#'],
+		github_username: 'Kourto',
 	},
 	{
 		name: 'Sethu Narayan Senthil',
