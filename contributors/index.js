@@ -7,6 +7,14 @@ const list = [{
 		twitter_username: 'sabahatiqbal',
 	},
 	{
+		name: 'Harshit Kumar Ojha',
+		country: 'India',
+		role: 'cs beginner',
+		tech_stack: ['NodeJs', 'Python', 'DiscordJs', 'Javascript','Html','css'],
+		github_username: 'HarshitKumarOjha',
+		twitter_username: '#',
+	},
+	{
 		name: 'Sethu Narayan Senthil',
 		country: 'United States',
 		role: 'Highschool Student',
