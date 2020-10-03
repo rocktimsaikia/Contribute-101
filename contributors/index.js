@@ -1452,6 +1452,13 @@ const list = [{
 		github_username: 'Sagar2366',
 		twitter_username: '#',
 	},
+	{
+		name: 'Breno Santos',
+		country: 'Brazil',
+		role: 'Student',
+		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
+		github_username: 'breno5g',
+	}
 ];
 
 module.exports.list = list.reverse();
