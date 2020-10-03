@@ -1,4 +1,12 @@
 const list = [{
+		name: 'Giri Aakula',
+		country: 'India',
+		role: 'Developer',
+		tech_stack: ['Javascript', 'React', 'Node'],
+		github_username: 'GiriAakula',
+		twitter_username: 'giriaakula'
+	},
+	{
 		name: 'Sabahat iqbal',
 		country: 'United States',
 		role: 'Developer',
