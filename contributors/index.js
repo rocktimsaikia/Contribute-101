@@ -1459,12 +1459,20 @@ const list = [{
 		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
 		github_username: 'breno5g',
 	},
-  {
-    name: 'Naruedom Tongkampan',
+	{
+		name: 'Naruedom Tongkampan',
 		country: 'Thailand',
 		role: 'Dev',
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
+		twitter_username: '#',
+	},
+	{
+		name: 'Biharck Araújo',
+		country: 'Brazil',
+		role: 'Dev',
+		tech_stack: ['JS'],
+		github_username: 'biharck',
 		twitter_username: '#',
 	}
 ];
