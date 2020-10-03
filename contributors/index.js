@@ -1458,6 +1458,14 @@ const list = [{
 		role: 'Student',
 		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
 		github_username: 'breno5g',
+	},
+  {
+    name: 'Naruedom Tongkampan',
+		country: 'Thailand',
+		role: 'Dev',
+		tech_stack: ['JS'],
+		github_username: 'dreaminfo',
+		twitter_username: '#',
 	}
 ];
 
