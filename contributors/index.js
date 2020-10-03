@@ -1,11 +1,4 @@
 const list = [{
-		name: 'Kourto',
-		country: 'Canada',
-		role: 'Student',
-		tech_stack: ['C', 'Java', 'C#'],
-		github_username: 'Kourto',
-	},
-	{
 		name: 'Sethu Narayan Senthil',
 		country: 'United States',
 		role: 'Highschool Student',
@@ -1450,6 +1443,13 @@ const list = [{
 		tech_stack: ['Cloud', 'DevOps', 'Python', 'Java', 'Go'],
 		github_username: 'Sagar2366',
 		twitter_username: '#',
+	},
+	{
+		name: 'Kourto',
+		country: 'Canada',
+		role: 'Student',
+		tech_stack: ['C', 'Java', 'C#'],
+		github_username: 'Kourto',
 	},
 ];
 
