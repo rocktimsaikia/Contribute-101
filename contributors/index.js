@@ -1466,7 +1466,16 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
+	},
+	{
+	name: 'Arya Soni',
+		country: 'India',
+		role: 'Dev',
+		tech_stack: ['Python , Javascript'],
+		github_username: 'aryasoni98',
+		twitter_username: 'aryasoni98',
 	}
+
 ];
 
 module.exports.list = list.reverse();
