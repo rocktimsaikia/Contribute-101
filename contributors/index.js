@@ -1466,6 +1466,14 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
+	},
+	{
+		name: 'Muhammad Dayan',
+		country: 'Indonesia',
+		role: 'Developer',
+		tech_stack: ['Javascript', 'Java', 'PHP'],
+		github_username: 'mdayann',
+		twitter_username: 'mdayan69',
 	}
 ];
 
