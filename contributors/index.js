@@ -514,7 +514,7 @@ const list = [{
 		role: 'To be filled',
 		tech_stack: ['MongoDB', 'Express', 'Node'],
 		github_username: 'Icor101',
-		twitter_username: '#',
+		npm run lint:fixtwitter_username: '#',
 	},
 	{
 		name: 'Pedro Veríssimo',
@@ -1466,7 +1466,16 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
-	}
+	},
+	{
+	 name: 'Luanna Leonel',
+                country: 'Brazil',
+                role: 'Computer Science Student',
+                tech_stack: ['Python', 'Java'],
+                github_username: 'LuannaLeonel',
+                twitter_username: 'luaintheskywd',
+        }
+
 ];
 
 module.exports.list = list.reverse();
