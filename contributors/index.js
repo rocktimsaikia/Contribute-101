@@ -1466,7 +1466,14 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
-	}
+	},
+	      {
+		      name: 'Michael Bataller',
+		      country: 'Philippines',
+		      role: 'Developer',
+		      tech_stack: ['React', 'Firebase'],
+		      github_username: 'mchlbataller',
+	      },
 ];
 
 module.exports.list = list.reverse();
