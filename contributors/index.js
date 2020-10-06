@@ -1466,6 +1466,14 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
+	},
+	{
+		name: 'Romain Olivier',
+		country: 'France',
+		role: 'Student',
+		tech_stack: ['JS','Java','C#','C/C++','Python'],
+		github_username: 'romain325',
+		twitter_username: '#'
 	}
 ];
 
