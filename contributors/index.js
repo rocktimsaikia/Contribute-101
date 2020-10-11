@@ -1,4 +1,13 @@
-const list = [{
+const list = [
+	{
+		name: 'Nameer Waqas',
+		country: 'Pakistan',
+		role: 'University Student',
+		tech_stack: ['JavaScript', 'React','NodeJS','GraphQL'],
+		github_username: 'NameerWaqas',
+		twitter_username: 'WaqasNameer',
+	},
+	{
 		name: 'Sabahat iqbal',
 		country: 'United States',
 		role: 'Developer',
