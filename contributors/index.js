@@ -82,8 +82,8 @@ const list = [{
 		country: 'India',
 		role: 'Web Developer',
 		tech_stack: ['C', 'Java', 'Python', 'Javascript'],
-		gtihub_username: 'KeyulJain',
-		twitter_username: '#',
+		github_username: 'KeyulJain',
+		twitter_username: 'keyuljain',
 	},
 	{
 		name: 'Henrique',
