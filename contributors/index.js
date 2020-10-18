@@ -83,7 +83,7 @@ const list = [{
 		role: 'Web Developer',
 		tech_stack: ['C', 'Java', 'Python', 'Javascript'],
 		github_username: 'KeyulJain',
-		twitter_username: '#',
+		twitter_username: 'keyuljain',
 	},
 	{
 		name: 'Henrique',
