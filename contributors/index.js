@@ -1,4 +1,13 @@
-const list = [{
+const list = [
+	{
+		name: 'Thanyathon Pornsawatchai',
+		country: 'Thailand',
+		role: 'Fullstack Developer',
+		tech_stack: ['React', 'Nodejs'],
+		github_username: 'bloodzmoon',
+		twitter_username: 'bloodzmoon',
+	},
+	{
 		name: 'Sabahat iqbal',
 		country: 'United States',
 		role: 'Developer',
@@ -1459,14 +1468,14 @@ const list = [{
 		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
 		github_username: 'breno5g',
 	},
-  {
-    name: 'Naruedom Tongkampan',
+	{
+		name: 'Naruedom Tongkampan',
 		country: 'Thailand',
 		role: 'Dev',
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
-	}
+	},
 ];
 
 module.exports.list = list.reverse();
