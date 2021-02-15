@@ -8,7 +8,7 @@
 
 <!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
 
-> PLease keep in mind that pull requests on this project won't count towards Hacktoberfest. This project is just to help and encourage new developers to get familiar with open source contribution.
+> Please keep in mind that pull requests on this project won't count towards Hacktoberfest. This project is just to help and encourage new developers to get familiar with open source contribution.
 
 <p align="center"><img src="screenshots/hacktober.png" height="350px"/></p>
 
