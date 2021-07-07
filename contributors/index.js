@@ -1466,6 +1466,14 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
+	},
+	{
+		name: 'Olayiwola Ololade',
+		Country:'Nigeria',
+		role:'Dev',
+		tech_stack:['JS'],
+		gitHub_username:'lolyparty',
+		twitter_username:'Champagne Papi'
 	}
 ];
 
