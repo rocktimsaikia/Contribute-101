@@ -1466,6 +1466,14 @@ const list = [{
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
+	},
+	{
+		name: 'Ramon Domingos',
+		country: 'Brazil',
+		role: 'Developer',
+		tech_stack: ['Javascript', 'React', 'Python'],
+		github_username: 'ramondomiingos',
+		twitter_username: 'ramondomiingos',
 	}
 ];
 
