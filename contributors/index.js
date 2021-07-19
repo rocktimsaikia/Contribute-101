@@ -1459,14 +1459,22 @@ const list = [{
 		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
 		github_username: 'breno5g',
 	},
-  {
+       {
     name: 'Naruedom Tongkampan',
 		country: 'Thailand',
 		role: 'Dev',
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
-	}
+	},
+	{
+		name: 'Vipul Raj',
+		country: 'India',
+		role: 'Electronics and Communication student',
+		tech_stack: ['C', 'C++', 'Java', 'Javascript', 'Python'],
+		github_username: 'VipulRaj-123',
+		twitter_username: '#',
+	},	
 ];
 
 module.exports.list = list.reverse();
