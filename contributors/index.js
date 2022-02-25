@@ -1,4 +1,5 @@
-const list = [{
+const list = [
+	{
 		name: 'Sabahat iqbal',
 		country: 'United States',
 		role: 'Developer',
@@ -1459,14 +1460,34 @@ const list = [{
 		tech_stack: ['NodeJs', 'React', 'JavaScript', 'GameMaker Language'],
 		github_username: 'breno5g',
 	},
-  {
-    name: 'Naruedom Tongkampan',
+	{
+		name: 'Naruedom Tongkampan',
 		country: 'Thailand',
 		role: 'Dev',
 		tech_stack: ['JS'],
 		github_username: 'dreaminfo',
 		twitter_username: '#',
-	}
+	},
+	{
+		name: 'Edilson Matola',
+		country: 'Mozambique',
+		role: 'Linux SysAdmin, UI/UX, Software & Web Development Engineer and Consultant',
+		tech_stack: [
+			'Flutter',
+			'React.js',
+			'Next.js',
+			'Express.js',
+			'JavaScript',
+			'Python',
+			'Java',
+			'Node.js',
+			'WordPress',
+			'Spring Boot',
+			'Docker'
+		],
+		github_username: 'edilsonmatola',
+		twitter_username: 'Edilson_Mtl',
+	},
 ];
 
 module.exports.list = list.reverse();
