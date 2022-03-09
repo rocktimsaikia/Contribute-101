@@ -79,6 +79,14 @@ const list = [
 		twitter_username: 'battago',
 	},
 	{
+		name:'Keyul',
+		country: 'India',
+		role: 'Web Developer',
+		tech_stack: ['C', 'Java', 'Python', 'Javascript'],
+		github_username: 'KeyulJain',
+		twitter_username: 'keyuljain',
+	},
+	{
 		name: 'Henrique',
 		country: 'Brazil',
 		role: 'Computer Science Student',
