@@ -8,7 +8,7 @@
 
 <!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
 
-> PLease keep in mind that pull requests on this project won't count towards Hacktoberfest. This project is just to help and encourage new developers to get familiar with open source contribution.
+> Please keep in mind that pull requests on this project won't count towards Hacktoberfest. This project is only meant to help and encourage new developers to get familiar with open source contribution.
 
 <p align="center"><img src="screenshots/hacktober.png" height="350px"/></p>
 
@@ -17,8 +17,8 @@
 ## :cloud: Introduction:
 Hello Contributors!
 Open Source projects are a great way for enhancing your coding skills and exploring new technologies.
-But top of that contributing to Open Source Projects is FUN.
-The joy of the first time when your pull request gets accepted is amazing. Which you are going to find today by contributing to this project.
+But on top of that, contributing to Open Source Projects is **FUN**.
+The joy of the first time when your pull request gets accepted is amazing – which you are going to experience today by contributing to this project.
 
 <br><br>
 
@@ -31,7 +31,7 @@ The joy of the first time when your pull request gets accepted is amazing. Which
 <br><br>
 
 ## :grey_question: Who Can Contribute?
-Anyone from an absolute beginner to a developer can contribute to enhance your open source experience.
+Anyone from an absolute beginner to a seasoned developer can contribute to enhance your open source experience.
 
 <br><br>
 
@@ -43,8 +43,8 @@ NPM stands for Node Package Manager, which is an application and repository for 
 <br><br>
 
 ## :hammer: Prerequisite :
-- Setup your GitHub account. To familiarize with GitHub go through [GitHub Hello World Guide](https://guides.github.com/activities/hello-world/)
-- You can download [GitHub Desktop App](https://desktop.github.com/) or use Git on command line.
+- Setup your GitHub account. To familiarize yourself with GitHub go through the [GitHub Hello World Guide](https://guides.github.com/activities/hello-world/)
+- You can download the [GitHub Desktop App](https://desktop.github.com/) or use Git on command line.
 - Install [nodejs](https://nodejs.org) on your local machine globally. Click [here](https://phoenixnap.com/kb/install-node-js-npm-on-windows) for more information.
 
 
@@ -84,11 +84,11 @@ git push -u origin myCard
 
 6. Now create the pull request
 
-Your changes would not be visible immediately.
-Your pull request will be reviewed, get accepted and merged by the project maintainer.
+Your changes will not be visible immediately.
+Your pull request will be reviewed, accepted and merged by the project maintainer.
 
-You can now celebrate ! :confetti_ball:
+You can now celebrate! :confetti_ball:
 
 <br><br>
 
-### Congrats :tada: .You have successfully created your pull request. Now wait for PR to be reviewed and get merged!
+### Congrats :tada: You have successfully created your pull request. Now wait for PR to be reviewed and get merged!
