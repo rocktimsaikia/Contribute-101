@@ -6,7 +6,7 @@
 <h4 align="center">✨ A simple project to help people make their first open source pull request</h4>
 </p>
 
-<!-- > ### ✨ Hacktoberfest 2019 has ended ! See you in 2020 🚀🎉 -->
+<!-- > ### ✨ Hacktoberfest 2020 has started! See you there! 🚀🎉 -->
 
 > PLease keep in mind that pull requests on this project won't count towards Hacktoberfest. This project is just to help and encourage new developers to get familiar with open source contribution.
 
@@ -28,7 +28,7 @@ The joy of the first time when your pull request gets accepted is amazing. Which
 - Get familiar with NodeJs.
 - Make a Pull Request.
 
-<br><br>
+<br><br><br>
 
 ## :grey_question: Who Can Contribute?
 Anyone from an absolute beginner to a developer can contribute to enhance your open source experience.
