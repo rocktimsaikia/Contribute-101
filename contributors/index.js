@@ -1461,6 +1461,14 @@ const list = [
 		github_username: 'breno5g',
 	},
 	{
+		name: 'Deo Subarno',
+		country: 'Indonesia',
+		role: 'Web Developer',
+		tech_stack: ['Javascript', 'PHP', 'Ruby', 'Next.js', 'Laravel'],
+		github_username: 'kochan4php',
+		twitter_username: 'deo_sbrn',
+	},
+	{
 		name: 'Naruedom Tongkampan',
 		country: 'Thailand',
 		role: 'Dev',
@@ -1471,7 +1479,8 @@ const list = [
 	{
 		name: 'Edilson Matola',
 		country: 'Mozambique',
-		role: 'Linux SysAdmin, UI/UX, Software & Web Development Engineer and Consultant',
+		role:
+			'Linux SysAdmin, UI/UX, Software & Web Development Engineer and Consultant',
 		tech_stack: [
 			'Flutter',
 			'React.js',
@@ -1483,7 +1492,7 @@ const list = [
 			'Node.js',
 			'WordPress',
 			'Spring Boot',
-			'Docker'
+			'Docker',
 		],
 		github_username: 'edilsonmatola',
 		twitter_username: 'Edilson_Mtl',
