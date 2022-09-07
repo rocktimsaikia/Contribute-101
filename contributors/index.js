@@ -1,5 +1,13 @@
 const list = [
 	{
+		name: ' Stancillous Raymond',
+		country: 'Kenya',
+		role: 'Web Developer',
+		tech_stack: ['Javascript', 'Vue', 'Typescript'],
+		github_username: 'stancillous',
+		twitter_username: 'StanceRaymond',
+	},
+	{
 		name: 'Sabahat iqbal',
 		country: 'United States',
 		role: 'Developer',
