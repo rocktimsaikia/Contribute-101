@@ -1488,6 +1488,14 @@ const list = [
 		github_username: 'edilsonmatola',
 		twitter_username: 'Edilson_Mtl',
 	},
+	{
+		name: 'Gabriel Lozano',
+		country: 'United States',
+		role: 'Student/Self-taught',
+		tech_stack: ['Javascipt', 'Python'],
+		github_username: 'gabriel504',
+		twitter_username: 'craftflawed',
+	},
 ];
 
 module.exports.list = list.reverse();
