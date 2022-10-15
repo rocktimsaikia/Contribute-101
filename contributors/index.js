@@ -1488,6 +1488,25 @@ const list = [
 		github_username: 'edilsonmatola',
 		twitter_username: 'Edilson_Mtl',
 	},
+	,
+	{
+		name: 'Tejas Kolwankar',
+		country: 'India',
+		role: 'Software Developer and Cloud enthusiast',
+		tech_stack: [
+			'Flutter',
+			'React.js',
+			'Next.js',
+			'Express.js',
+			'JavaScript',
+			'Python',
+			'AWS',
+			'Node.js',
+			'React Native'
+		],
+		github_username: 'Tejas021',
+		twitter_username: '#',
+	}
 ];
 
 module.exports.list = list.reverse();
