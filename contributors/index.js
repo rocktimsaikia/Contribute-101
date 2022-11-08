@@ -134,6 +134,7 @@ const list = [
 		github_username: 'arendestes',
 		twitter_username: '#',
 	},
+	
 	{
 		name: 'Matheus Del Claro',
 		country: 'Brazil',
@@ -298,6 +299,7 @@ const list = [
 		github_username: 'ankurkalambe',
 		twitter_username: 'ankur_kalambe',
 	},
+	
 	{
 		name: 'Ly Chunvira',
 		country: 'Cambodia',
@@ -453,6 +455,7 @@ const list = [
 		github_username: 'luistak',
 		twitter_username: '_luistak',
 	},
+	
 	{
 		name: 'Akash Kumar',
 		country: 'India',
@@ -579,6 +582,14 @@ const list = [
 		tech_stack: ['C++', 'JavaScript', 'HTML', 'CSS'],
 		github_username: 'abhay27chauhan',
 		twitter_username: '#',
+	},
+	{
+		name: 'Vikash Kaushik',
+		country: 'India',
+		role: 'Full-Stack Dev',
+		tech_stack: ['Javascript', 'React', 'Java'],
+		github_username: 'theneoalpha',
+		twitter_username: 'theneoalpha',
 	},
 	{
 		name: 'Upasana Deka',
@@ -1471,7 +1482,7 @@ const list = [
 	{
 		name: 'Edilson Matola',
 		country: 'Mozambique',
-		role: 'Linux SysAdmin, UI/UX, Software & Web Development Engineer and Consultant',
+		role: 'UI/UX,Software & Web Dev',
 		tech_stack: [
 			'Flutter',
 			'React.js',
