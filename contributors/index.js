@@ -343,6 +343,16 @@ const list = [
 		twitter_username: '#',
 	},
 	{
+		name: 'Vikash Kaushik',
+		country: 'India',
+		role: 'Full Stack Dev',
+		tech_stack: ['ReactJS', 'Java', 'NodeJS'],
+		github_username: 'theneoalpha',
+		twitter_username: 'theneoalpha',
+
+	},
+
+	{
 		name: 'Nikhil Vaidyar',
 		country: 'India',
 		role: 'To be filled',
@@ -1471,7 +1481,7 @@ const list = [
 	{
 		name: 'Edilson Matola',
 		country: 'Mozambique',
-		role: 'Linux SysAdmin, UI/UX, Software & Web Development Engineer and Consultant',
+		role: 'UI/UX,Software&Web Dev',
 		tech_stack: [
 			'Flutter',
 			'React.js',
